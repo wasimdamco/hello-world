@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bAO-wc-ExW" customClass="BodyPartsDetailView" customModule="EPIAL" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gyi-6Q-Rm5">
+                    <rect key="frame" x="8" y="8" width="304" height="341"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="gyi-6Q-Rm5" secondAttribute="height" multiplier="304:341" id="67p-HO-TNT"/>
+                        <constraint firstAttribute="width" secondItem="gyi-6Q-Rm5" secondAttribute="height" multiplier="320:203" id="9xZ-4u-Aru"/>
+                        <constraint firstAttribute="width" secondItem="gyi-6Q-Rm5" secondAttribute="height" multiplier="76:77" id="PVQ-bb-BqU"/>
+                        <constraint firstAttribute="width" secondItem="gyi-6Q-Rm5" secondAttribute="height" multiplier="152:199" id="XTP-hL-IPF"/>
+                        <constraint firstAttribute="width" secondItem="gyi-6Q-Rm5" secondAttribute="height" multiplier="80:79" id="jDB-Dd-zDn"/>
+                        <constraint firstAttribute="width" secondItem="gyi-6Q-Rm5" secondAttribute="height" multiplier="304:227" id="n7O-Xm-KL2"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="9xZ-4u-Aru"/>
+                            <exclude reference="PVQ-bb-BqU"/>
+                            <exclude reference="XTP-hL-IPF"/>
+                            <exclude reference="jDB-Dd-zDn"/>
+                            <exclude reference="n7O-Xm-KL2"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ZEF-5m-si0">
+                    <rect key="frame" x="8" y="357" width="304" height="198"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ZEF-5m-si0" secondAttribute="height" multiplier="76:59" id="3hJ-jk-GDj"/>
+                        <constraint firstAttribute="width" secondItem="ZEF-5m-si0" secondAttribute="height" multiplier="16:15" constant="52.26666666666668" id="XXP-aC-fT7"/>
+                        <constraint firstAttribute="width" secondItem="ZEF-5m-si0" secondAttribute="height" multiplier="304:341" id="b3s-sM-ejF"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="3hJ-jk-GDj"/>
+                            <exclude reference="XXP-aC-fT7"/>
+                            <exclude reference="b3s-sM-ejF"/>
+                        </mask>
+                    </variation>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ZEF-5m-si0" firstAttribute="leading" secondItem="bAO-wc-ExW" secondAttribute="leading" constant="8" id="48d-nZ-pGf"/>
+                <constraint firstAttribute="trailing" secondItem="ZEF-5m-si0" secondAttribute="trailing" constant="8" id="BhO-IX-tqv"/>
+                <constraint firstItem="gyi-6Q-Rm5" firstAttribute="height" secondItem="bAO-wc-ExW" secondAttribute="height" multiplier="0.6" id="Cct-Ag-fuC"/>
+                <constraint firstAttribute="bottom" secondItem="ZEF-5m-si0" secondAttribute="bottom" constant="13" id="FhV-rS-ydf"/>
+                <constraint firstAttribute="width" secondItem="bAO-wc-ExW" secondAttribute="height" multiplier="40:63" id="Ig5-gQ-FKq"/>
+                <constraint firstItem="gyi-6Q-Rm5" firstAttribute="leading" secondItem="bAO-wc-ExW" secondAttribute="leading" constant="8" id="Jz8-Cq-ykz"/>
+                <constraint firstItem="gyi-6Q-Rm5" firstAttribute="top" secondItem="bAO-wc-ExW" secondAttribute="top" constant="8" id="Kd7-Zh-4mR"/>
+                <constraint firstItem="ZEF-5m-si0" firstAttribute="height" secondItem="bAO-wc-ExW" secondAttribute="height" multiplier="0.4" constant="-29" id="OAw-Wh-2a4"/>
+                <constraint firstItem="ZEF-5m-si0" firstAttribute="top" secondItem="gyi-6Q-Rm5" secondAttribute="bottom" constant="8" id="R1Y-JG-z1g"/>
+                <constraint firstAttribute="trailing" secondItem="gyi-6Q-Rm5" secondAttribute="trailing" constant="8" id="gk8-i2-6Ds"/>
+                <constraint firstItem="ZEF-5m-si0" firstAttribute="top" secondItem="gyi-6Q-Rm5" secondAttribute="bottom" constant="8" id="juT-Vr-bCN"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Ig5-gQ-FKq"/>
+                    <exclude reference="Kd7-Zh-4mR"/>
+                    <exclude reference="R1Y-JG-z1g"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="bodyDetailTextView" destination="ZEF-5m-si0" id="SDz-7c-czS"/>
+                <outlet property="bodyPartImageView" destination="gyi-6Q-Rm5" id="exq-wo-m5C"/>
+            </connections>
+            <point key="canvasLocation" x="1019" y="-184"/>
+        </view>
+    </objects>
+</document>

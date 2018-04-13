@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>head</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>Include the temporomandibular joint, also known as the TMJ or jaw joint, neck and shoulders . Treat above one ear to the tip of the opposite shoulder.</string>
+			<key>picture</key>
+			<string>head_1</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Then repeat reversing sides.</string>
+			<key>picture</key>
+			<string>head_2</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat across the back of the shoulders from the tip of one to the other. </string>
+			<key>picture</key>
+			<string>head_3</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Repeat making few X patterns across back of neck. </string>
+			<key>picture</key>
+			<string>head_4</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Repeat making few X patterns across back of neck. </string>
+			<key>picture</key>
+			<string>head_5</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Repeat making few X patterns across back of neck. </string>
+			<key>picture</key>
+			<string>head_6</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Repeat making few X patterns across back of neck. </string>
+			<key>picture</key>
+			<string>head_7</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Next, apply from one TMJ to the other. </string>
+			<key>picture</key>
+			<string>head_8</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Next apply from temple to jaw straight up and down.</string>
+			<key>picture</key>
+			<string>head_9</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Then repeat reversing side.</string>
+			<key>picture</key>
+			<string>head_10</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat about one minute directing the current through the painful area. </string>
+			<key>picture</key>
+			<string>head_11</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat about one minute directing the current through the painful area. </string>
+			<key>picture</key>
+			<string>head_12</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat about one minute directing the current through the painful area. </string>
+			<key>picture</key>
+			<string>head_13</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat about one minute directing the current through the painful area. </string>
+			<key>picture</key>
+			<string>head_14</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Sinus or eye pain: Again using the general procedure for head pain then add the following treatment for sinuses or optic headaches. Treat sinuses when indicated above and below  your eyes or from side to side. </string>
+			<key>picture</key>
+			<string>head_15</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat sinuses when indicated above and below  your eyes or from side to side.</string>
+			<key>picture</key>
+			<string>head_16</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>For headaches due to eyes strain treat behind your eyes by placing probes on each temple.</string>
+			<key>picture</key>
+			<string>head_17</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Then across each of the bridge of the nose to the temple. </string>
+			<key>picture</key>
+			<string>head_18</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Then across each of the bridge of the nose to the temple. </string>
+			<key>picture</key>
+			<string>head_19</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Temporomandibular disorder, also know as TMD: Begin using the general procedure for head pain. Treat in a star pattern across the TM joint then reverse sides. </string>
+			<key>picture</key>
+			<string>head_20</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat in a star pattern across the TM joint then reverse sides.</string>
+			<key>picture</key>
+			<string>head_21</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat in a star pattern across the TM joint then reverse sides.</string>
+			<key>picture</key>
+			<string>head_22</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat in a star pattern across the TM joint then reverse sides.</string>
+			<key>picture</key>
+			<string>head_23</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Connect the TM joint with the sternocleidomastoid muscle, leave one probe on the jaw joint and move the other to the back of the neck and down next to the sternum or breastbone</string>
+			<key>picture</key>
+			<string>head_24</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Then move the other probe down next to the sternum or breastbone.</string>
+			<key>picture</key>
+			<string>head_25</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Then move the other probe down next to the sternum or breastbone.</string>
+			<key>picture</key>
+			<string>head_26</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Then move the other probe down next to the sternum or breastbone.</string>
+			<key>picture</key>
+			<string>head_27</string>
+		</dict>
+	</array>
+	<key>shoulder</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>To treat the neck and arms including the fingers, hands, wrists, elbows and shoulders connect your two hands by placing one smart probe on one fingertip and the other smart probe in the same place on the corresponding fingertip of the other hand for 10 or 20 seconds.  In other words, treat thumb tip to thumb tip on the other hand, index finger next for all five fingers. </string>
+			<key>picture</key>
+			<string>shoulder_1</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat for all five fingers. </string>
+			<key>picture</key>
+			<string>shoulder_2</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat for all five fingers. </string>
+			<key>picture</key>
+			<string>shoulder_3</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat for all five fingers. </string>
+			<key>picture</key>
+			<string>shoulder_4</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat for all five fingers. </string>
+			<key>picture</key>
+			<string>shoulder_5</string>
+		</dict>
+	</array>
+	<key>arm</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>Treat beyond the treatment area to encompass the entire arm in at least two places. </string>
+			<key>picture</key>
+			<string>arms_1</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat beyond the treatment area to encompass the entire arm in at least two places. </string>
+			<key>picture</key>
+			<string>arms_2</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Then treat closer in around and through the area being treated for about one minute.</string>
+			<key>picture</key>
+			<string>arms_3</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Applying the probes  at about six different positions. </string>
+			<key>picture</key>
+			<string>arms_4</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Applying the probes  at about six different positions. </string>
+			<key>picture</key>
+			<string>arms_5</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Applying the probes  at about six different positions. </string>
+			<key>picture</key>
+			<string>arms_6</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat the same body part on the opposite side in at least 2 places such as the other elbow or wrist. </string>
+			<key>picture</key>
+			<string>arms_7</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Connect the two sides by placing one probe below the treatment area and the other in the same place on the opposite side. </string>
+			<key>picture</key>
+			<string>arms_8</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Repeat in a few places , for example follow a line under and around each wrist.</string>
+			<key>picture</key>
+			<string>arms_9</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Placing the probes at intervals along the line all the way around the arm  below the wrist. </string>
+			<key>picture</key>
+			<string>arms_10</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Repeat as necessary varying probe positions. </string>
+			<key>picture</key>
+			<string>arms_11</string>
+		</dict>
+	</array>
+	<key>back</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>Treat the entire back in at least two places.</string>
+			<key>picture</key>
+			<string>back_1</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat the entire back in at least two places.</string>
+			<key>picture</key>
+			<string>back_2</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Move closer in around the area for about one minute.  Apply one probe to the back near the spine at the area of pain and the other on the opposite side near the front . </string>
+			<key>picture</key>
+			<string>back_3</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Apply one probe to the back near the spine at the area of pain and the other on the opposite side near the front . </string>
+			<key>picture</key>
+			<string>back_4</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Then again above and below .</string>
+			<key>picture</key>
+			<string>back_5</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Follow by the same placement on the opposite side. </string>
+			<key>picture</key>
+			<string>back_6</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Connect the two sides. Place one probe  below the treatment area and the other  in the same place on the opposite side. </string>
+			<key>picture</key>
+			<string>back_7</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Repeat in a few places . For back pain place probe in at least three places on both sides of the body at the level being  treated and slightly above and below  to direct the current  through the spinal cord. Repeat as necessary varying the probe position. </string>
+			<key>picture</key>
+			<string>back_8</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Continue treatment until pain is completely gone or maximum relief is achieved. </string>
+			<key>picture</key>
+			<string>back_9</string>
+		</dict>
+	</array>
+	<key>knee</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>First treat  for the full 10 seconds, treat beyond the treatment area in at least 2 places, such as the entire leg for knee pain. </string>
+			<key>picture</key>
+			<string>knee_1</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Always direct the current between the Probes  to flow through the treatment area.</string>
+			<key>picture</key>
+			<string>knee_2</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat closer in, around and through the area being treated for about 1 minute, applying the Smart Probes at about 6 different angles of approach with the Probes always placed on opposite sides of the body such as front to back or side to side.</string>
+			<key>picture</key>
+			<string>knee_3</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Treat the same body part on the opposite side of the body in at least 2 places, in this case, treat the other knee.</string>
+			<key>picture</key>
+			<string>knee_4</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Connect the two sides by placing one Probe below the treatment area and the other in the same place on the opposite side of the body in a few places. For example, follow a line under and around each knee placing the Probes at intervals along the line.</string>
+			<key>picture</key>
+			<string>knee_5</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>For best results vary probe placements until the pain is completely gone or maximum relief is achieved for that day. There is usually an increased range of motion in treated areas. </string>
+			<key>picture</key>
+			<string>knee_6</string>
+		</dict>
+	</array>
+	<key>leg</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>This strategy applied to the toes may be used to treat any problems  in the legs such as pain in the toes, feet ankles and knees, but not hips. Hip pain requires local probe treatment. Repeat as necessary, varying probe positions until your pain is completely gone or maximum relief is achieved. </string>
+			<key>picture</key>
+			<string>legs_1</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Vary probe positions until your pain is completely gone or maximum relief is achieved. </string>
+			<key>picture</key>
+			<string>legs_2</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Vary probe positions until your pain is completely gone or maximum relief is achieved. </string>
+			<key>picture</key>
+			<string>legs_3</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Vary probe positions until your pain is completely gone or maximum relief is achieved. </string>
+			<key>picture</key>
+			<string>legs_4</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Vary probe positions until your pain is completely gone or maximum relief is achieved. </string>
+			<key>picture</key>
+			<string>legs_5</string>
+		</dict>
+	</array>
+</dict>
+</plist>

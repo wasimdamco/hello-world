@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ChartYAxis Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ChartYAxis" class="dashAnchor"></a>
+    <a title="ChartYAxis Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (42% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ChartYAxis Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BarChartView.html">BarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL25BarLineChartFillFormatter">BarLineChartFillFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BarLineChartViewBase.html">BarLineChartViewBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL19BodyPartsDetailView">BodyPartsDetailView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL29BodyPartsDetailViewController">BodyPartsDetailViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL20CandleStickChartView">CandleStickChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartComponentBase.html">ChartComponentBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL31ChartDefaultXAxisValueFormatter">ChartDefaultXAxisValueFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartLimitLine.html">ChartLimitLine</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartTransformer.html">ChartTransformer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartViewPortHandler.html">ChartViewPortHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartYAxis.html">ChartYAxis</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CombinedChartView.html">CombinedChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPDatePickerView.html">EPDatePickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPHistoryTableView.html">EPHistoryTableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22EPHistoryTableViewCell">EPHistoryTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22EPNavigationController">EPNavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPPickerView.html">EPPickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL16ElectronicManual">ElectronicManual</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GraphViewController.html">GraphViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22HorizontalBarChartView">HorizontalBarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL23HumanBodyViewController">HumanBodyViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL13LineChartData">LineChartData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL13LineChartView">LineChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Logger.html">Logger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoggerViewController.html">LoggerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PDFViewController.html">PDFViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PieChartView.html">PieChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PieRadarChartViewBase.html">PieRadarChartViewBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RadarChartView.html">RadarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL16ScatterChartView">ScatterChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL17TabViewController">TabViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:O5EPIAL10DeviceType">DeviceType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ChartFillFormatter.html">ChartFillFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChartXAxisValueFormatter.html">ChartXAxisValueFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DatePickerSelectionDelegate.html">DatePickerSelectionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PickerSelectionDelegate.html">PickerSelectionDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL16DeviceAIDDetails">DeviceAIDDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL14DeviceMDetails">DeviceMDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL19EPDeviceInformation">EPDeviceInformation</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ChartYAxis</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ChartYAxis</span><span class="p">:</span> <span class="kt">ChartAxisBase</span></code></pre>
+
+                </div>
+              </div>
+            <p>Class representing the y-axis labels settings and its entries.
+Be aware that not all features the YLabels class provides are suitable for the RadarChart.
+Customizations that affect the value range of the axis need to be applied before setting data for the chart.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:OC5EPIAL10ChartYAxis14AxisDependency"></a>
+                    <a name="//apple_ref/swift/Enum/AxisDependency" class="dashAnchor"></a>
+                    <a class="token" href="#/s:OC5EPIAL10ChartYAxis14AxisDependency">AxisDependency</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enum that specifies the axis a DataSet should be plotted against, either Left or Right.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">AxisDependency</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis25drawTopYLabelEntryEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/drawTopYLabelEntryEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis25drawTopYLabelEntryEnabledSb">drawTopYLabelEntryEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>indicates if the top y-label entry is drawn or not</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">drawTopYLabelEntryEnabled</span> <span class="o">=</span> <span class="kc">true</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis21showOnlyMinMaxEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/showOnlyMinMaxEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis21showOnlyMinMaxEnabledSb">showOnlyMinMaxEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>if true, the y-labels show only the minimum and maximum value</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">showOnlyMinMaxEnabled</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis8invertedSb"></a>
+                    <a name="//apple_ref/swift/Property/inverted" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis8invertedSb">inverted</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>flag that indicates if the axis is inverted or not</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">inverted</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis18startAtZeroEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/startAtZeroEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis18startAtZeroEnabledSb">startAtZeroEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>if true, the y-label entries will always start at zero</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">startAtZeroEnabled</span> <span class="o">=</span> <span class="kc">true</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis18forceLabelsEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/forceLabelsEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis18forceLabelsEnabledSb">forceLabelsEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>if true, the set number of y-labels will be forced</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">forceLabelsEnabled</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis14valueFormatterGSqCSo17NSNumberFormatter_"></a>
+                    <a name="//apple_ref/swift/Property/valueFormatter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis14valueFormatterGSqCSo17NSNumberFormatter_">valueFormatter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the formatter used to customly format the y-labels</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">valueFormatter</span><span class="p">:</span> <span class="kt">NSNumberFormatter</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis22_defaultValueFormatterCSo17NSNumberFormatter"></a>
+                    <a name="//apple_ref/swift/Property/_defaultValueFormatter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis22_defaultValueFormatterCSo17NSNumberFormatter">_defaultValueFormatter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the formatter used to customly format the y-labels</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">internal</span> <span class="k">var</span> <span class="nv">_defaultValueFormatter</span> <span class="o">=</span> <span class="kt">NSNumberFormatter</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis13customAxisMinSd"></a>
+                    <a name="//apple_ref/swift/Property/customAxisMin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis13customAxisMinSd">customAxisMin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A custom minimum value for this axis. 
+If set, this value will not be calculated automatically depending on the provided data. 
+Use <code><a href="../Classes/ChartYAxis.html#/s:FC5EPIAL10ChartYAxis18resetCustomAxisMinFS0_FT_T_">resetCustomAxisMin()</a></code> to undo this.
+Do not forget to set startAtZeroEnabled = false if you use this method.
+Otherwise, the axis-minimum value will still be forced to 0.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">customAxisMin</span> <span class="o">=</span> <span class="kt">Double</span><span class="o">.</span><span class="kt">NaN</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis13customAxisMaxSd"></a>
+                    <a name="//apple_ref/swift/Property/customAxisMax" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis13customAxisMaxSd">customAxisMax</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set a custom maximum value for this axis. 
+If set, this value will not be calculated automatically depending on the provided data. 
+Use <code><a href="../Classes/ChartYAxis.html#/s:FC5EPIAL10ChartYAxis18resetCustomAxisMaxFS0_FT_T_">resetCustomAxisMax()</a></code> to undo this.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">customAxisMax</span> <span class="o">=</span> <span class="kt">Double</span><span class="o">.</span><span class="kt">NaN</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis8spaceTopV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/spaceTop" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis8spaceTopV12CoreGraphics7CGFloat">spaceTop</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>axis space from the largest value to the top in percent of the total axis range</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">spaceTop</span> <span class="o">=</span> <span class="kt">CGFloat</span><span class="p">(</span><span class="mf">0.1</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis11spaceBottomV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/spaceBottom" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis11spaceBottomV12CoreGraphics7CGFloat">spaceBottom</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>axis space from the smallest value to the bottom in percent of the total axis range</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">spaceBottom</span> <span class="o">=</span> <span class="kt">CGFloat</span><span class="p">(</span><span class="mf">0.1</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis9axisRangeSd"></a>
+                    <a name="//apple_ref/swift/Property/axisRange" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis9axisRangeSd">axisRange</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the total range of values this axis covers</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">axisRange</span> <span class="o">=</span> <span class="kt">Double</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis13labelPositionOS0_18YAxisLabelPosition"></a>
+                    <a name="//apple_ref/swift/Property/labelPosition" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis13labelPositionOS0_18YAxisLabelPosition">labelPosition</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the position of the y-labels relative to the chart</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">labelPosition</span> <span class="o">=</span> <span class="kt">YAxisLabelPosition</span><span class="o">.</span><span class="kt">OutsideChart</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis8minWidthV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/minWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis8minWidthV12CoreGraphics7CGFloat">minWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the minimum width that the axis should take</p>
+
+<p><strong>default</strong>: 0.0</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">minWidth</span> <span class="o">=</span> <span class="kt">CGFloat</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis8maxWidthV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/maxWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis8maxWidthV12CoreGraphics7CGFloat">maxWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the maximum width that the axis can take.
+use zero for disabling the maximum</p>
+
+<p><strong>default</strong>: 0.0 (no maximum specified)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">maxWidth</span> <span class="o">=</span> <span class="kt">CGFloat</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis10labelCountSi"></a>
+                    <a name="//apple_ref/swift/Property/labelCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis10labelCountSi">labelCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the number of label entries the y-axis should have
+max = 25,
+min = 2,
+default = 6,
+be aware that this number is not fixed and can only be approximated</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">labelCount</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL10ChartYAxis18resetCustomAxisMinFS0_FT_T_"></a>
+                    <a name="//apple_ref/swift/Method/resetCustomAxisMin()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL10ChartYAxis18resetCustomAxisMinFS0_FT_T_">resetCustomAxisMin()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>By calling this method, any custom minimum value that has been previously set is reseted, and the calculation is done automatically.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">resetCustomAxisMin</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL10ChartYAxis18resetCustomAxisMaxFS0_FT_T_"></a>
+                    <a name="//apple_ref/swift/Method/resetCustomAxisMax()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL10ChartYAxis18resetCustomAxisMaxFS0_FT_T_">resetCustomAxisMax()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>By calling this method, any custom maximum value that has been previously set is reseted, and the calculation is done automatically.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">resetCustomAxisMax</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL10ChartYAxis17getFormattedLabelFS0_FSiSS"></a>
+                    <a name="//apple_ref/swift/Method/getFormattedLabel(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL10ChartYAxis17getFormattedLabelFS0_FSiSS">getFormattedLabel(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getFormattedLabel</span><span class="p">(</span><span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the formatted y-label at the specified index. This will either use the auto-formatter or the custom formatter (if one is set).</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis11needsOffsetSb"></a>
+                    <a name="//apple_ref/swift/Property/needsOffset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis11needsOffsetSb">needsOffset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">needsOffset</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if this axis needs horizontal offset, false if no offset is needed.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL10ChartYAxis20isForceLabelsEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/isForceLabelsEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL10ChartYAxis20isForceLabelsEnabledSb">isForceLabelsEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isForceLabelsEnabled</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">return</span> <span class="n">forceLabelsEnabled</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if focing the y-label count is enabled. Default: false</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external">Akhil</a>. All rights reserved. (Last updated: 2016-02-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.5.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

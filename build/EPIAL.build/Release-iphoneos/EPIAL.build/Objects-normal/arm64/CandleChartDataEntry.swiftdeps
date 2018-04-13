@@ -1,0 +1,223 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CandleChartDataEntry"
+provides-nominal:
+- "C5EPIAL20CandleChartDataEntry"
+provides-member:
+- ["C5EPIAL20CandleChartDataEntry", ""]
+provides-dynamic-lookup:
+- "open"
+- "value"
+- "bodyRange"
+- "low"
+- "shadowRange"
+- "copyWithZone"
+- "close"
+- "high"
+depends-top-level:
+- "ChartDataEntry"
+- "AnyObject"
+- !private "/"
+- "NSZone"
+- "Int"
+- !private "StringLiteralType"
+- "CandleChartDataEntry"
+- !private "-"
+- "Double"
+- !private "+"
+- !private "abs"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "IntegerLiteralType"]
+- ["PSs16AbsoluteValuable", "init"]
+- ["PSs9AnyObject", "Double"]
+- !private ["PSs9AnyObject", "abs"]
+- ["PSs9AnyObject", "bodyRange"]
+- ["PSs9AnyObject", "close"]
+- ["PSs9AnyObject", "copyWithZone"]
+- ["PSs9AnyObject", "high"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "low"]
+- ["PSs9AnyObject", "open"]
+- ["PSs9AnyObject", "shadowRange"]
+- ["PSs9AnyObject", "value"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "Double"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "abs"]
+- ["PSs11CVarArgType", "bodyRange"]
+- ["PSs11CVarArgType", "close"]
+- ["PSs11CVarArgType", "copyWithZone"]
+- ["PSs11CVarArgType", "high"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "low"]
+- ["PSs11CVarArgType", "open"]
+- ["PSs11CVarArgType", "shadowRange"]
+- ["PSs11CVarArgType", "value"]
+- ["PSs11CVarArgType", ""]
+- ["C5EPIAL20CandleChartDataEntry", "AnyObject"]
+- !private ["C5EPIAL20CandleChartDataEntry", "CandleChartDataEntry"]
+- ["C5EPIAL20CandleChartDataEntry", "Double"]
+- ["C5EPIAL20CandleChartDataEntry", "Int"]
+- ["C5EPIAL20CandleChartDataEntry", "NSZone"]
+- !private ["C5EPIAL20CandleChartDataEntry", "abs"]
+- ["C5EPIAL20CandleChartDataEntry", "bodyRange"]
+- ["C5EPIAL20CandleChartDataEntry", "close"]
+- ["C5EPIAL20CandleChartDataEntry", "copyWithZone"]
+- ["C5EPIAL20CandleChartDataEntry", "deinit"]
+- ["C5EPIAL20CandleChartDataEntry", "high"]
+- ["C5EPIAL20CandleChartDataEntry", "init"]
+- ["C5EPIAL20CandleChartDataEntry", "low"]
+- ["C5EPIAL20CandleChartDataEntry", "open"]
+- ["C5EPIAL20CandleChartDataEntry", "shadowRange"]
+- ["C5EPIAL20CandleChartDataEntry", "value"]
+- ["C5EPIAL14ChartDataEntry", "AnyObject"]
+- !private ["C5EPIAL14ChartDataEntry", "CandleChartDataEntry"]
+- ["C5EPIAL14ChartDataEntry", "Double"]
+- ["C5EPIAL14ChartDataEntry", "Int"]
+- ["C5EPIAL14ChartDataEntry", "NSZone"]
+- !private ["C5EPIAL14ChartDataEntry", "abs"]
+- ["C5EPIAL14ChartDataEntry", "bodyRange"]
+- ["C5EPIAL14ChartDataEntry", "close"]
+- ["C5EPIAL14ChartDataEntry", "copyWithZone"]
+- ["C5EPIAL14ChartDataEntry", "high"]
+- ["C5EPIAL14ChartDataEntry", "init"]
+- ["C5EPIAL14ChartDataEntry", "low"]
+- ["C5EPIAL14ChartDataEntry", "open"]
+- ["C5EPIAL14ChartDataEntry", "shadowRange"]
+- ["C5EPIAL14ChartDataEntry", "value"]
+- ["C5EPIAL14ChartDataEntry", ""]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- ["PSs10Comparable", "init"]
+- ["PSs23CustomStringConvertible", "Double"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "abs"]
+- ["PSs23CustomStringConvertible", "bodyRange"]
+- ["PSs23CustomStringConvertible", "close"]
+- ["PSs23CustomStringConvertible", "copyWithZone"]
+- ["PSs23CustomStringConvertible", "high"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "low"]
+- ["PSs23CustomStringConvertible", "open"]
+- ["PSs23CustomStringConvertible", "shadowRange"]
+- ["PSs23CustomStringConvertible", "value"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "IntegerLiteralType"]
+- ["Sd", "init"]
+- ["PSs9Equatable", "Double"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "abs"]
+- ["PSs9Equatable", "bodyRange"]
+- ["PSs9Equatable", "close"]
+- ["PSs9Equatable", "copyWithZone"]
+- ["PSs9Equatable", "high"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "low"]
+- ["PSs9Equatable", "open"]
+- ["PSs9Equatable", "shadowRange"]
+- ["PSs9Equatable", "value"]
+- ["PSs9Equatable", ""]
+- !private ["PSs23FloatLiteralConvertible", "IntegerLiteralType"]
+- ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "IntegerLiteralType"]
+- ["PSs17FloatingPointType", "init"]
+- ["PSs8Hashable", "Double"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "abs"]
+- ["PSs8Hashable", "bodyRange"]
+- ["PSs8Hashable", "close"]
+- ["PSs8Hashable", "copyWithZone"]
+- ["PSs8Hashable", "high"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "low"]
+- ["PSs8Hashable", "open"]
+- ["PSs8Hashable", "shadowRange"]
+- ["PSs8Hashable", "value"]
+- ["PSs8Hashable", ""]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- ["PSs25IntegerLiteralConvertible", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CandleChartDataEntry"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSZone"]
+- !private ["CSo8NSObject", "abs"]
+- ["CSo8NSObject", "bodyRange"]
+- ["CSo8NSObject", "close"]
+- ["CSo8NSObject", "copyWithZone"]
+- ["CSo8NSObject", "high"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "low"]
+- ["CSo8NSObject", "open"]
+- ["CSo8NSObject", "shadowRange"]
+- ["CSo8NSObject", "value"]
+- ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "abs"]
+- ["PSo16NSObjectProtocol", "bodyRange"]
+- ["PSo16NSObjectProtocol", "close"]
+- ["PSo16NSObjectProtocol", "copyWithZone"]
+- ["PSo16NSObjectProtocol", "high"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "low"]
+- ["PSo16NSObjectProtocol", "open"]
+- ["PSo16NSObjectProtocol", "shadowRange"]
+- ["PSo16NSObjectProtocol", "value"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- ["PSs16SignedNumberType", "init"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- ["PSs10Strideable", "init"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "IntegerLiteralType"]
+- ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs19_CVarArgAlignedType", "IntegerLiteralType"]
+- ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "IntegerLiteralType"]
+- ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- ["PSs11_Strideable", "init"]
+depends-nominal:
+- "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "C5EPIAL20CandleChartDataEntry"
+- "C5EPIAL14ChartDataEntry"
+- "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- "Sd"
+- "PSs9Equatable"
+- "PSs23FloatLiteralConvertible"
+- "PSs17FloatingPointType"
+- "PSs8Hashable"
+- "PSs25IntegerLiteralConvertible"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSs16SignedNumberType"
+- !private "VSs12StaticString"
+- "PSs10Strideable"
+- "PSs31_BuiltinFloatLiteralConvertible"
+- "PSs33_BuiltinIntegerLiteralConvertible"
+- "PSs19_CVarArgAlignedType"
+- "PSs22_CVarArgPassedAsDouble"
+- "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+- "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL-Bridging-Header.h"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL/PunchScrollView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+interface-hash: "4d2d060804f92212d36b13586769c714"

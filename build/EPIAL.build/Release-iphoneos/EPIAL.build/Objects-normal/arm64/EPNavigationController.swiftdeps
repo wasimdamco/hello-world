@@ -1,0 +1,255 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EPNavigationController"
+provides-nominal:
+- "C5EPIAL22EPNavigationController"
+provides-member:
+- ["C5EPIAL22EPNavigationController", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+depends-top-level:
+- "UINavigationController"
+- !private "UIColor"
+- !private "AnyObject"
+- "EPNavigationController"
+- !private "Dictionary"
+- !private "String"
+- !private "NSForegroundColorAttributeName"
+depends-member:
+- !private ["PSs9AnyObject", "NSForegroundColorAttributeName"]
+- !private ["PSs9AnyObject", "UIColor"]
+- ["PSs9AnyObject", "awakeFromNib"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "navigationBar"]
+- !private ["PSs9AnyObject", "tintColor"]
+- !private ["PSs9AnyObject", "titleTextAttributes"]
+- !private ["PSs9AnyObject", "whiteColor"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs11CVarArgType", "NSForegroundColorAttributeName"]
+- !private ["PSs11CVarArgType", "UIColor"]
+- ["PSs11CVarArgType", "awakeFromNib"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "navigationBar"]
+- !private ["PSs11CVarArgType", "tintColor"]
+- !private ["PSs11CVarArgType", "titleTextAttributes"]
+- !private ["PSs11CVarArgType", "whiteColor"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "NSForegroundColorAttributeName"]
+- !private ["PSs23CustomStringConvertible", "UIColor"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- ["PSs23CustomStringConvertible", "awakeFromNib"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "navigationBar"]
+- !private ["PSs23CustomStringConvertible", "tintColor"]
+- !private ["PSs23CustomStringConvertible", "titleTextAttributes"]
+- !private ["PSs23CustomStringConvertible", "whiteColor"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["C5EPIAL22EPNavigationController", "AnyObject"]
+- !private ["C5EPIAL22EPNavigationController", "NSForegroundColorAttributeName"]
+- !private ["C5EPIAL22EPNavigationController", "String"]
+- !private ["C5EPIAL22EPNavigationController", "UIColor"]
+- ["C5EPIAL22EPNavigationController", "awakeFromNib"]
+- ["C5EPIAL22EPNavigationController", "deinit"]
+- ["C5EPIAL22EPNavigationController", "init"]
+- !private ["C5EPIAL22EPNavigationController", "navigationBar"]
+- !private ["PSs9Equatable", "NSForegroundColorAttributeName"]
+- !private ["PSs9Equatable", "UIColor"]
+- ["PSs9Equatable", "awakeFromNib"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "navigationBar"]
+- !private ["PSs9Equatable", "tintColor"]
+- !private ["PSs9Equatable", "titleTextAttributes"]
+- !private ["PSs9Equatable", "whiteColor"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "NSForegroundColorAttributeName"]
+- !private ["PSs8Hashable", "UIColor"]
+- ["PSs8Hashable", "awakeFromNib"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "navigationBar"]
+- !private ["PSs8Hashable", "tintColor"]
+- !private ["PSs8Hashable", "titleTextAttributes"]
+- !private ["PSs8Hashable", "whiteColor"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["PSo8NSCoding", "NSForegroundColorAttributeName"]
+- !private ["PSo8NSCoding", "UIColor"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "navigationBar"]
+- !private ["PSo8NSCoding", "tintColor"]
+- !private ["PSo8NSCoding", "titleTextAttributes"]
+- !private ["PSo8NSCoding", "whiteColor"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "whiteColor"]
+- !private ["PSo26NSExtensionRequestHandling", "NSForegroundColorAttributeName"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- ["PSo26NSExtensionRequestHandling", "awakeFromNib"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationBar"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "NSForegroundColorAttributeName"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "navigationBar"]
+- !private ["CSo8NSObject", "tintColor"]
+- !private ["CSo8NSObject", "titleTextAttributes"]
+- !private ["CSo8NSObject", "whiteColor"]
+- !private ["PSo16NSObjectProtocol", "NSForegroundColorAttributeName"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "navigationBar"]
+- !private ["PSo16NSObjectProtocol", "tintColor"]
+- !private ["PSo16NSObjectProtocol", "titleTextAttributes"]
+- !private ["PSo16NSObjectProtocol", "whiteColor"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSo29UIAccessibilityIdentification", "tintColor"]
+- !private ["PSo29UIAccessibilityIdentification", "titleTextAttributes"]
+- !private ["PSo12UIAppearance", "tintColor"]
+- !private ["PSo12UIAppearance", "titleTextAttributes"]
+- !private ["PSo21UIAppearanceContainer", "NSForegroundColorAttributeName"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "navigationBar"]
+- !private ["PSo21UIAppearanceContainer", "tintColor"]
+- !private ["PSo21UIAppearanceContainer", "titleTextAttributes"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo16UIBarPositioning", "tintColor"]
+- !private ["PSo16UIBarPositioning", "titleTextAttributes"]
+- !private ["CSo7UIColor", "whiteColor"]
+- !private ["PSo18UIContentContainer", "NSForegroundColorAttributeName"]
+- !private ["PSo18UIContentContainer", "UIColor"]
+- ["PSo18UIContentContainer", "awakeFromNib"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "navigationBar"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "tintColor"]
+- !private ["PSo17UICoordinateSpace", "titleTextAttributes"]
+- !private ["PSo13UIDynamicItem", "tintColor"]
+- !private ["PSo13UIDynamicItem", "titleTextAttributes"]
+- !private ["PSo18UIFocusEnvironment", "NSForegroundColorAttributeName"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "navigationBar"]
+- !private ["PSo18UIFocusEnvironment", "tintColor"]
+- !private ["PSo18UIFocusEnvironment", "titleTextAttributes"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo15UINavigationBar", "tintColor"]
+- !private ["CSo15UINavigationBar", "titleTextAttributes"]
+- !private ["CSo22UINavigationController", "AnyObject"]
+- !private ["CSo22UINavigationController", "NSForegroundColorAttributeName"]
+- !private ["CSo22UINavigationController", "String"]
+- !private ["CSo22UINavigationController", "UIColor"]
+- ["CSo22UINavigationController", "awakeFromNib"]
+- ["CSo22UINavigationController", "init"]
+- !private ["CSo22UINavigationController", "navigationBar"]
+- ["CSo22UINavigationController", ""]
+- !private ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "NSForegroundColorAttributeName"]
+- !private ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "navigationBar"]
+- !private ["CSo11UIResponder", "tintColor"]
+- !private ["CSo11UIResponder", "titleTextAttributes"]
+- !private ["PSo16UIStateRestoring", "NSForegroundColorAttributeName"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
+- ["PSo16UIStateRestoring", "awakeFromNib"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "navigationBar"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "NSForegroundColorAttributeName"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "navigationBar"]
+- !private ["PSo18UITraitEnvironment", "tintColor"]
+- !private ["PSo18UITraitEnvironment", "titleTextAttributes"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "tintColor"]
+- !private ["CSo6UIView", "titleTextAttributes"]
+- !private ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "NSForegroundColorAttributeName"]
+- !private ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIColor"]
+- ["CSo16UIViewController", "awakeFromNib"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "navigationBar"]
+- !private ["PSs24_ColorLiteralConvertible", "whiteColor"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "tintColor"]
+- !private ["PSs12_Reflectable", "titleTextAttributes"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- "C5EPIAL22EPNavigationController"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "PSs12SequenceType"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "PSo16UIBarPositioning"
+- !private "CSo7UIColor"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo15UINavigationBar"
+- "CSo22UINavigationController"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "PSs24_ColorLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL-Bridging-Header.h"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL/PunchScrollView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+interface-hash: "383348878e9f2878f2e11c889f43cbe3"

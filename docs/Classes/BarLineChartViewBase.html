@@ -1,0 +1,2447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BarLineChartViewBase Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/BarLineChartViewBase" class="dashAnchor"></a>
+    <a title="BarLineChartViewBase Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (42% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        BarLineChartViewBase Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BarChartView.html">BarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL25BarLineChartFillFormatter">BarLineChartFillFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BarLineChartViewBase.html">BarLineChartViewBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL19BodyPartsDetailView">BodyPartsDetailView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL29BodyPartsDetailViewController">BodyPartsDetailViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL20CandleStickChartView">CandleStickChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartComponentBase.html">ChartComponentBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL31ChartDefaultXAxisValueFormatter">ChartDefaultXAxisValueFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartLimitLine.html">ChartLimitLine</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartTransformer.html">ChartTransformer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartViewPortHandler.html">ChartViewPortHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartYAxis.html">ChartYAxis</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CombinedChartView.html">CombinedChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPDatePickerView.html">EPDatePickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPHistoryTableView.html">EPHistoryTableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22EPHistoryTableViewCell">EPHistoryTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22EPNavigationController">EPNavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPPickerView.html">EPPickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL16ElectronicManual">ElectronicManual</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GraphViewController.html">GraphViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22HorizontalBarChartView">HorizontalBarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL23HumanBodyViewController">HumanBodyViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL13LineChartData">LineChartData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL13LineChartView">LineChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Logger.html">Logger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoggerViewController.html">LoggerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PDFViewController.html">PDFViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PieChartView.html">PieChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PieRadarChartViewBase.html">PieRadarChartViewBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RadarChartView.html">RadarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL16ScatterChartView">ScatterChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL17TabViewController">TabViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:O5EPIAL10DeviceType">DeviceType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ChartFillFormatter.html">ChartFillFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChartXAxisValueFormatter.html">ChartXAxisValueFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DatePickerSelectionDelegate.html">DatePickerSelectionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PickerSelectionDelegate.html">PickerSelectionDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL16DeviceAIDDetails">DeviceAIDDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL14DeviceMDetails">DeviceMDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL19EPDeviceInformation">EPDeviceInformation</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BarLineChartViewBase</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">BarLineChartViewBase</span><span class="p">:</span> <span class="kt">ChartViewBase</span><span class="p">,</span> <span class="kt">BarLineScatterCandleBubbleChartDataProvider</span><span class="p">,</span> <span class="kt">UIGestureRecognizerDelegate</span></code></pre>
+
+                </div>
+              </div>
+            <p>Base-class of LineChart, BarChart, ScatterChart and CandleStickChart.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase21_maxVisibleValueCountSi"></a>
+                    <a name="//apple_ref/swift/Property/_maxVisibleValueCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase21_maxVisibleValueCountSi">_maxVisibleValueCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the maximum number of entried to which values will be drawn</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">internal</span> <span class="k">var</span> <span class="nv">_maxVisibleValueCount</span> <span class="o">=</span> <span class="mi">100</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase19gridBackgroundColorCSo7UIColor"></a>
+                    <a name="//apple_ref/swift/Property/gridBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase19gridBackgroundColorCSo7UIColor">gridBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the color for the background of the chart-drawing area (everything behind the grid lines).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">gridBackgroundColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="p">(</span><span class="nv">red</span><span class="p">:</span> <span class="mi">240</span><span class="o">/</span><span class="mf">255.0</span><span class="p">,</span> <span class="nv">green</span><span class="p">:</span> <span class="mi">240</span><span class="o">/</span><span class="mf">255.0</span><span class="p">,</span> <span class="nv">blue</span><span class="p">:</span> <span class="mi">240</span><span class="o">/</span><span class="mf">255.0</span><span class="p">,</span> <span class="nv">alpha</span><span class="p">:</span> <span class="mf">1.0</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase25drawGridBackgroundEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/drawGridBackgroundEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase25drawGridBackgroundEnabledSb">drawGridBackgroundEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>flag indicating if the grid background should be drawn or not</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">drawGridBackgroundEnabled</span> <span class="o">=</span> <span class="kc">true</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase18drawBordersEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/drawBordersEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase18drawBordersEnabledSb">drawBordersEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets drawing the borders rectangle to true. If this is enabled, there is no point drawing the axis-lines of x- and y-axis.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">drawBordersEnabled</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase9minOffsetV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/minOffset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase9minOffsetV12CoreGraphics7CGFloat">minOffset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the minimum offset (padding) around the chart, defaults to 10</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">minOffset</span> <span class="o">=</span> <span class="kt">CGFloat</span><span class="p">(</span><span class="mf">10.0</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase9_leftAxisGSQCS_10ChartYAxis_"></a>
+                    <a name="//apple_ref/swift/Property/_leftAxis" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase9_leftAxisGSQCS_10ChartYAxis_">_leftAxis</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the object representing the labels on the y-axis, this object is prepared
+in the pepareYLabels() method</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">internal</span> <span class="k">var</span> <span class="nv">_leftAxis</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase6_xAxisGSQCS_10ChartXAxis_"></a>
+                    <a name="//apple_ref/swift/Property/_xAxis" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase6_xAxisGSQCS_10ChartXAxis_">_xAxis</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the object representing the labels on the x-axis</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">internal</span> <span class="k">var</span> <span class="nv">_xAxis</span><span class="p">:</span> <span class="kt">ChartXAxis</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase11calcModulusFS0_FT_T_"></a>
+                    <a name="//apple_ref/swift/Method/calcModulus()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase11calcModulusFS0_FT_T_">calcModulus()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>calculates the modulus for x-labels and grid</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">internal</span> <span class="kd">func</span> <span class="nf">calcModulus</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase18drawGridBackgroundFS0_FT7contextCSo9CGContext_T_"></a>
+                    <a name="//apple_ref/swift/Method/drawGridBackground(context:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase18drawGridBackgroundFS0_FT7contextCSo9CGContext_T_">drawGridBackground(context:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>draws the grid background</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">internal</span> <span class="kd">func</span> <span class="nf">drawGridBackground</span><span class="p">(</span><span class="n">context</span> <span class="nv">context</span><span class="p">:</span> <span class="kt">CGContext</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Gestures"></a>
+                <a name="//apple_ref/swift/Section/Gestures" class="dashAnchor"></a>
+                <a href="#/Gestures">
+                  <h3 class="section-name">Gestures</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase6zoomInFS0_FT_T_"></a>
+                    <a name="//apple_ref/swift/Method/zoomIn()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase6zoomInFS0_FT_T_">zoomIn()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>MARK: Viewport modifiers
+Zooms in by 1.4, into the charts center. center.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">zoomIn</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase7zoomOutFS0_FT_T_"></a>
+                    <a name="//apple_ref/swift/Method/zoomOut()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase7zoomOutFS0_FT_T_">zoomOut()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Zooms out by 0.7, from the charts center. center.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">zoomOut</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase4zoomFS0_FTV12CoreGraphics7CGFloat6scaleYS2_1xS2_1yS2__T_"></a>
+                    <a name="//apple_ref/swift/Method/zoom(_:scaleY:x:y:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase4zoomFS0_FTV12CoreGraphics7CGFloat6scaleYS2_1xS2_1yS2__T_">zoom(_:scaleY:x:y:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Zooms in or out by the given scale factor. x and y are the coordinates
+(in pixels) of the zoom center.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">zoom</span><span class="p">(</span><span class="nv">scaleX</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">scaleY</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">x</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>scaleX</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>if &lt; 1 &ndash;&gt; zoom out, if &gt; 1 &ndash;&gt; zoom in</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>scaleY</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>if &lt; 1 &ndash;&gt; zoom out, if &gt; 1 &ndash;&gt; zoom in</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>x</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>y</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase9fitScreenFS0_FT_T_"></a>
+                    <a name="//apple_ref/swift/Method/fitScreen()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase9fitScreenFS0_FT_T_">fitScreen()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Resets all zooming and dragging and makes the chart fit exactly it&rsquo;s bounds.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">fitScreen</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase14setScaleMinimaFS0_FTV12CoreGraphics7CGFloat6scaleYS2__T_"></a>
+                    <a name="//apple_ref/swift/Method/setScaleMinima(_:scaleY:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase14setScaleMinimaFS0_FTV12CoreGraphics7CGFloat6scaleYS2__T_">setScaleMinima(_:scaleY:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the minimum scale value to which can be zoomed out. 1 = fitScreen</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setScaleMinima</span><span class="p">(</span><span class="nv">scaleX</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">scaleY</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase23setVisibleXRangeMaximumFS0_FV12CoreGraphics7CGFloatT_"></a>
+                    <a name="//apple_ref/swift/Method/setVisibleXRangeMaximum(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase23setVisibleXRangeMaximumFS0_FV12CoreGraphics7CGFloatT_">setVisibleXRangeMaximum(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the size of the area (range on the x-axis) that should be maximum visible at once (no further zomming out allowed).
+If this is e.g. set to 10, no more than 10 values on the x-axis can be viewed at once without scrolling.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setVisibleXRangeMaximum</span><span class="p">(</span><span class="nv">maxXRange</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase23setVisibleXRangeMinimumFS0_FV12CoreGraphics7CGFloatT_"></a>
+                    <a name="//apple_ref/swift/Method/setVisibleXRangeMinimum(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase23setVisibleXRangeMinimumFS0_FV12CoreGraphics7CGFloatT_">setVisibleXRangeMinimum(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the size of the area (range on the x-axis) that should be minimum visible at once (no further zooming in allowed).
+If this is e.g. set to 10, no more than 10 values on the x-axis can be viewed at once without scrolling.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setVisibleXRangeMinimum</span><span class="p">(</span><span class="nv">minXRange</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase16setVisibleXRangeFS0_FT9minXRangeV12CoreGraphics7CGFloat9maxXRangeS2__T_"></a>
+                    <a name="//apple_ref/swift/Method/setVisibleXRange(minXRange:maxXRange:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase16setVisibleXRangeFS0_FT9minXRangeV12CoreGraphics7CGFloat9maxXRangeS2__T_">setVisibleXRange(minXRange:maxXRange:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Limits the maximum and minimum value count that can be visible by pinching and zooming.
+e.g. minRange=10, maxRange=100 no less than 10 values and no more that 100 values can be viewed
+at once without scrolling</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setVisibleXRange</span><span class="p">(</span><span class="n">minXRange</span> <span class="nv">minXRange</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">maxXRange</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase23setVisibleYRangeMaximumFS0_FTV12CoreGraphics7CGFloat4axisOCS_10ChartYAxis14AxisDependency_T_"></a>
+                    <a name="//apple_ref/swift/Method/setVisibleYRangeMaximum(_:axis:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase23setVisibleYRangeMaximumFS0_FTV12CoreGraphics7CGFloat4axisOCS_10ChartYAxis14AxisDependency_T_">setVisibleYRangeMaximum(_:axis:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the size of the area (range on the y-axis) that should be maximum visible at once.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setVisibleYRangeMaximum</span><span class="p">(</span><span class="nv">maxYRange</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">axis</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>yRange</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>axis</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+<ul>
+<li>the axis for which this limit should apply</li>
+</ul>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase11moveViewToXFS0_FSiT_"></a>
+                    <a name="//apple_ref/swift/Method/moveViewToX(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase11moveViewToXFS0_FSiT_">moveViewToX(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Moves the left side of the current viewport to the specified x-index.
+This also refreshes the chart by calling setNeedsDisplay().</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">moveViewToX</span><span class="p">(</span><span class="nv">xIndex</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase11moveViewToYFS0_FTV12CoreGraphics7CGFloat4axisOCS_10ChartYAxis14AxisDependency_T_"></a>
+                    <a name="//apple_ref/swift/Method/moveViewToY(_:axis:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase11moveViewToYFS0_FTV12CoreGraphics7CGFloat4axisOCS_10ChartYAxis14AxisDependency_T_">moveViewToY(_:axis:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Centers the viewport to the specified y-value on the y-axis.
+This also refreshes the chart by calling setNeedsDisplay().</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">moveViewToY</span><span class="p">(</span><span class="nv">yValue</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">axis</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>yValue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>axis</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+<ul>
+<li>which axis should be used as a reference for the y-axis</li>
+</ul>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase10moveViewToFS0_FT6xIndexSi6yValueV12CoreGraphics7CGFloat4axisOCS_10ChartYAxis14AxisDependency_T_"></a>
+                    <a name="//apple_ref/swift/Method/moveViewTo(xIndex:yValue:axis:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase10moveViewToFS0_FT6xIndexSi6yValueV12CoreGraphics7CGFloat4axisOCS_10ChartYAxis14AxisDependency_T_">moveViewTo(xIndex:yValue:axis:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This will move the left side of the current viewport to the specified x-index on the x-axis, and center the viewport to the specified y-value on the y-axis.
+This also refreshes the chart by calling setNeedsDisplay().</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">moveViewTo</span><span class="p">(</span><span class="n">xIndex</span> <span class="nv">xIndex</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">yValue</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">axis</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>xIndex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>yValue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>axis</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+<ul>
+<li>which axis should be used as a reference for the y-axis</li>
+</ul>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase12centerViewToFS0_FT6xIndexSi6yValueV12CoreGraphics7CGFloat4axisOCS_10ChartYAxis14AxisDependency_T_"></a>
+                    <a name="//apple_ref/swift/Method/centerViewTo(xIndex:yValue:axis:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase12centerViewToFS0_FT6xIndexSi6yValueV12CoreGraphics7CGFloat4axisOCS_10ChartYAxis14AxisDependency_T_">centerViewTo(xIndex:yValue:axis:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This will move the center of the current viewport to the specified x-index and y-value.
+This also refreshes the chart by calling setNeedsDisplay().</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">centerViewTo</span><span class="p">(</span><span class="n">xIndex</span> <span class="nv">xIndex</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">yValue</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">axis</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>xIndex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>yValue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>axis</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  
+<ul>
+<li>which axis should be used as a reference for the y-axis</li>
+</ul>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase18setViewPortOffsetsFS0_FT4leftV12CoreGraphics7CGFloat3topS2_5rightS2_6bottomS2__T_"></a>
+                    <a name="//apple_ref/swift/Method/setViewPortOffsets(left:top:right:bottom:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase18setViewPortOffsetsFS0_FT4leftV12CoreGraphics7CGFloat3topS2_5rightS2_6bottomS2__T_">setViewPortOffsets(left:top:right:bottom:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets custom offsets for the current <code>ChartViewPort</code> (the offsets on the sides of the actual chart window). Setting this will prevent the chart from automatically calculating it&rsquo;s offsets. Use <code><a href="../Classes/BarLineChartViewBase.html#/s:FC5EPIAL20BarLineChartViewBase20resetViewPortOffsetsFS0_FT_T_">resetViewPortOffsets()</a></code> to undo this.
+ONLY USE THIS WHEN YOU KNOW WHAT YOU ARE DOING, else use <code>setExtraOffsets(...)</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setViewPortOffsets</span><span class="p">(</span><span class="k">left</span> <span class="nv">left</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">top</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">right</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">bottom</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase20resetViewPortOffsetsFS0_FT_T_"></a>
+                    <a name="//apple_ref/swift/Method/resetViewPortOffsets()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase20resetViewPortOffsetsFS0_FT_T_">resetViewPortOffsets()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Resets all custom offsets set via <code><a href="../Classes/BarLineChartViewBase.html#/s:FC5EPIAL20BarLineChartViewBase18setViewPortOffsetsFS0_FT4leftV12CoreGraphics7CGFloat3topS2_5rightS2_6bottomS2__T_">setViewPortOffsets(...)</a></code> method. Allows the chart to again calculate all offsets automatically.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">resetViewPortOffsets</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Accessors"></a>
+                <a name="//apple_ref/swift/Section/Accessors" class="dashAnchor"></a>
+                <a href="#/Accessors">
+                  <h3 class="section-name">Accessors</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase9getDeltaYFS0_FOCS_10ChartYAxis14AxisDependencyV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Method/getDeltaY(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase9getDeltaYFS0_FOCS_10ChartYAxis14AxisDependencyV12CoreGraphics7CGFloat">getDeltaY(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getDeltaY</span><span class="p">(</span><span class="nv">axis</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the delta-y value (y-value range) of the specified axis.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase11getPositionFS0_FTCS_14ChartDataEntry4axisOCS_10ChartYAxis14AxisDependency_VSC7CGPoint"></a>
+                    <a name="//apple_ref/swift/Method/getPosition(_:axis:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase11getPositionFS0_FTCS_14ChartDataEntry4axisOCS_10ChartYAxis14AxisDependency_VSC7CGPoint">getPosition(_:axis:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getPosition</span><span class="p">(</span><span class="nv">e</span><span class="p">:</span> <span class="kt">ChartDataEntry</span><span class="p">,</span> <span class="nv">axis</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the position (in pixels) the provided Entry has inside the chart view</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase11dragEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/dragEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase11dragEnabledSb">dragEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>is dragging enabled? (moving the chart with the finger) for the chart (this does not affect scaling).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">dragEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase13isDragEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/isDragEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase13isDragEnabledSb">isDragEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>is dragging enabled? (moving the chart with the finger) for the chart (this does not affect scaling).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isDragEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase15setScaleEnabledFS0_FSbT_"></a>
+                    <a name="//apple_ref/swift/Method/setScaleEnabled(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase15setScaleEnabledFS0_FSbT_">setScaleEnabled(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>is scaling enabled? (zooming in and out by gesture) for the chart (this does not affect dragging).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setScaleEnabled</span><span class="p">(</span><span class="nv">enabled</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase22doubleTapToZoomEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/doubleTapToZoomEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase22doubleTapToZoomEnabledSb">doubleTapToZoomEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>flag that indicates if double tap zoom is enabled or not</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">doubleTapToZoomEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase24isDoubleTapToZoomEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/isDoubleTapToZoomEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase24isDoubleTapToZoomEnabledSb">isDoubleTapToZoomEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><strong>default</strong>: true
+- returns: true if zooming via double-tap is enabled false if not.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isDoubleTapToZoomEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if zooming via double-tap is enabled false if not.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase23highlightPerDragEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/highlightPerDragEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase23highlightPerDragEnabledSb">highlightPerDragEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>flag that indicates if highlighting per dragging over a fully zoomed out chart is enabled</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">highlightPerDragEnabled</span> <span class="o">=</span> <span class="kc">true</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase25isHighlightPerDragEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/isHighlightPerDragEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase25isHighlightPerDragEnabledSb">isHighlightPerDragEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If set to true, highlighting per dragging over a fully zoomed out chart is enabled
+You might want to disable this when using inside a <code>UIScrollView</code></p>
+
+<p><strong>default</strong>: true</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isHighlightPerDragEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase27isDrawGridBackgroundEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/isDrawGridBackgroundEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase27isDrawGridBackgroundEnabledSb">isDrawGridBackgroundEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><strong>default</strong>: true
+- returns: true if drawing the grid background is enabled, false if not.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isDrawGridBackgroundEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if drawing the grid background is enabled, false if not.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase20isDrawBordersEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/isDrawBordersEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase20isDrawBordersEnabledSb">isDrawBordersEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><strong>default</strong>: false
+- returns: true if drawing the borders rectangle is enabled, false if not.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isDrawBordersEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if drawing the borders rectangle is enabled, false if not.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase24getHighlightByTouchPointFS0_FVSC7CGPointGSqCS_14ChartHighlight_"></a>
+                    <a name="//apple_ref/swift/Method/getHighlightByTouchPoint(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase24getHighlightByTouchPointFS0_FVSC7CGPointGSqCS_14ChartHighlight_">getHighlightByTouchPoint(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getHighlightByTouchPoint</span><span class="p">(</span><span class="nv">pt</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ChartHighlight</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the Highlight object (contains x-index and DataSet index) of the selected value at the given touch point inside the Line-, Scatter-, or CandleStick-Chart.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase20getValueByTouchPointFS0_FT2ptVSC7CGPoint4axisOCS_10ChartYAxis14AxisDependency_S1_"></a>
+                    <a name="//apple_ref/swift/Method/getValueByTouchPoint(pt:axis:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase20getValueByTouchPointFS0_FT2ptVSC7CGPoint4axisOCS_10ChartYAxis14AxisDependency_S1_">getValueByTouchPoint(pt:axis:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getValueByTouchPoint</span><span class="p">(</span><span class="k">var</span> <span class="nv">pt</span> <span class="nv">pt</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">axis</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the x and y values in the chart at the given touch point (encapsulated in a <code>CGPoint</code>). This method transforms pixel coordinates to coordinates / values in the chart. This is the opposite method to <code>getPixelsForValues(...)</code>.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase16getPixelForValueFS0_FTSd1ySd4axisOCS_10ChartYAxis14AxisDependency_VSC7CGPoint"></a>
+                    <a name="//apple_ref/swift/Method/getPixelForValue(_:y:axis:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase16getPixelForValueFS0_FTSd1ySd4axisOCS_10ChartYAxis14AxisDependency_VSC7CGPoint">getPixelForValue(_:y:axis:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Transforms the given chart values into pixels. This is the opposite
+method to <code><a href="../Classes/BarLineChartViewBase.html#/s:FC5EPIAL20BarLineChartViewBase20getValueByTouchPointFS0_FT2ptVSC7CGPoint4axisOCS_10ChartYAxis14AxisDependency_S1_">getValueByTouchPoint(...)</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getPixelForValue</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="kt">Double</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">Double</span><span class="p">,</span> <span class="nv">axis</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase21getYValueByTouchPointFS0_FT2ptVSC7CGPoint4axisOCS_10ChartYAxis14AxisDependency_V12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Method/getYValueByTouchPoint(pt:axis:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase21getYValueByTouchPointFS0_FT2ptVSC7CGPoint4axisOCS_10ChartYAxis14AxisDependency_V12CoreGraphics7CGFloat">getYValueByTouchPoint(pt:axis:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getYValueByTouchPoint</span><span class="p">(</span><span class="n">pt</span> <span class="nv">pt</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">axis</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the y-value at the given touch position (must not necessarily be a value contained in one of the datasets)</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase20getEntryByTouchPointFS0_FVSC7CGPointGSQCS_14ChartDataEntry_"></a>
+                    <a name="//apple_ref/swift/Method/getEntryByTouchPoint(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase20getEntryByTouchPointFS0_FVSC7CGPointGSQCS_14ChartDataEntry_">getEntryByTouchPoint(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getEntryByTouchPoint</span><span class="p">(</span><span class="nv">pt</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ChartDataEntry</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the Entry object displayed at the touched position of the chart</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase22getDataSetByTouchPointFS0_FVSC7CGPointGSQCS_38BarLineScatterCandleBubbleChartDataSet_"></a>
+                    <a name="//apple_ref/swift/Method/getDataSetByTouchPoint(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase22getDataSetByTouchPointFS0_FVSC7CGPointGSQCS_38BarLineScatterCandleBubbleChartDataSet_">getDataSetByTouchPoint(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getDataSetByTouchPoint</span><span class="p">(</span><span class="nv">pt</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">BarLineScatterCandleBubbleChartDataSet</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the DataSet object displayed at the touched position of the chart</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase6scaleXV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/scaleX" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase6scaleXV12CoreGraphics7CGFloat">scaleX</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">scaleX</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the current x-scale factor</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase6scaleYV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/scaleY" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase6scaleYV12CoreGraphics7CGFloat">scaleY</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">scaleY</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the current y-scale factor</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase16isFullyZoomedOutSb"></a>
+                    <a name="//apple_ref/swift/Property/isFullyZoomedOut" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase16isFullyZoomedOutSb">isFullyZoomedOut</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>if the chart is fully zoomed out, return true</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isFullyZoomedOut</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">return</span> <span class="n">_viewPortHandler</span><span class="o">.</span><span class="n">isFullyZoomedOut</span><span class="p">;</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase8leftAxisCS_10ChartYAxis"></a>
+                    <a name="//apple_ref/swift/Property/leftAxis" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase8leftAxisCS_10ChartYAxis">leftAxis</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">leftAxis</span><span class="p">:</span> <span class="kt">ChartYAxis</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the left y-axis object. In the horizontal bar-chart, this is the top axis.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase9rightAxisCS_10ChartYAxis"></a>
+                    <a name="//apple_ref/swift/Property/rightAxis" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase9rightAxisCS_10ChartYAxis">rightAxis</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">rightAxis</span><span class="p">:</span> <span class="kt">ChartYAxis</span> <span class="p">{</span> <span class="k">return</span> <span class="n">_rightAxis</span><span class="p">;</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the right y-axis object. In the horizontal bar-chart, this is the bottom axis.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase7getAxisFS0_FOCS_10ChartYAxis14AxisDependencyS1_"></a>
+                    <a name="//apple_ref/swift/Method/getAxis(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase7getAxisFS0_FOCS_10ChartYAxis14AxisDependencyS1_">getAxis(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getAxis</span><span class="p">(</span><span class="nv">axis</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ChartYAxis</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the y-axis object to the corresponding AxisDependency. In the horizontal bar-chart, LEFT == top, RIGHT == BOTTOM</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase5xAxisCS_10ChartXAxis"></a>
+                    <a name="//apple_ref/swift/Property/xAxis" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase5xAxisCS_10ChartXAxis">xAxis</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">xAxis</span><span class="p">:</span> <span class="kt">ChartXAxis</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the object representing all x-labels, this method can be used to acquire the XAxis object and modify it (e.g. change the position of the labels)</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase16pinchZoomEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/pinchZoomEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase16pinchZoomEnabledSb">pinchZoomEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>flag that indicates if pinch-zoom is enabled. if true, both x and y axis can be scaled simultaneously with 2 fingers, if false, x and y axis can be scaled separately</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">pinchZoomEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase18isPinchZoomEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/isPinchZoomEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase18isPinchZoomEnabledSb">isPinchZoomEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><strong>default</strong>: false
+- returns: true if pinch-zoom is enabled, false if not</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isPinchZoomEnabled</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">return</span> <span class="n">pinchZoomEnabled</span><span class="p">;</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if pinch-zoom is enabled, false if not</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase14setDragOffsetXFS0_FV12CoreGraphics7CGFloatT_"></a>
+                    <a name="//apple_ref/swift/Method/setDragOffsetX(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase14setDragOffsetXFS0_FV12CoreGraphics7CGFloatT_">setDragOffsetX(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set an offset in dp that allows the user to drag the chart over it&rsquo;s
+bounds on the x-axis.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDragOffsetX</span><span class="p">(</span><span class="nv">offset</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase14setDragOffsetYFS0_FV12CoreGraphics7CGFloatT_"></a>
+                    <a name="//apple_ref/swift/Method/setDragOffsetY(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase14setDragOffsetYFS0_FV12CoreGraphics7CGFloatT_">setDragOffsetY(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set an offset in dp that allows the user to drag the chart over it&rsquo;s
+bounds on the y-axis.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDragOffsetY</span><span class="p">(</span><span class="nv">offset</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase15hasNoDragOffsetSb"></a>
+                    <a name="//apple_ref/swift/Property/hasNoDragOffset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase15hasNoDragOffsetSb">hasNoDragOffset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">hasNoDragOffset</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">return</span> <span class="n">_viewPortHandler</span><span class="o">.</span><span class="n">hasNoDragOffset</span><span class="p">;</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if both drag offsets (x and y) are zero or smaller.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase13xAxisRendererCS_18ChartXAxisRenderer"></a>
+                    <a name="//apple_ref/swift/Property/xAxisRenderer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase13xAxisRendererCS_18ChartXAxisRenderer">xAxisRenderer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The X axis renderer. This is a read-write property so you can set your own custom renderer here.
+<strong>default</strong>: An instance of ChartXAxisRenderer
+- returns: The current set X axis renderer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">xAxisRenderer</span><span class="p">:</span> <span class="kt">ChartXAxisRenderer</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The current set X axis renderer</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase17leftYAxisRendererCS_18ChartYAxisRenderer"></a>
+                    <a name="//apple_ref/swift/Property/leftYAxisRenderer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase17leftYAxisRendererCS_18ChartYAxisRenderer">leftYAxisRenderer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The left Y axis renderer. This is a read-write property so you can set your own custom renderer here.
+<strong>default</strong>: An instance of ChartYAxisRenderer
+- returns: The current set left Y axis renderer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">leftYAxisRenderer</span><span class="p">:</span> <span class="kt">ChartYAxisRenderer</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The current set left Y axis renderer</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase18rightYAxisRendererCS_18ChartYAxisRenderer"></a>
+                    <a name="//apple_ref/swift/Property/rightYAxisRenderer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase18rightYAxisRendererCS_18ChartYAxisRenderer">rightYAxisRenderer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The right Y axis renderer. This is a read-write property so you can set your own custom renderer here.
+<strong>default</strong>: An instance of ChartYAxisRenderer
+- returns: The current set right Y axis renderer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">rightYAxisRenderer</span><span class="p">:</span> <span class="kt">ChartYAxisRenderer</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The current set right Y axis renderer</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase17isAnyAxisInvertedSb"></a>
+                    <a name="//apple_ref/swift/Property/isAnyAxisInverted" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase17isAnyAxisInvertedSb">isAnyAxisInverted</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isAnyAxisInverted</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if either the left or the right or both axes are inverted.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase22autoScaleMinMaxEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/autoScaleMinMaxEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase22autoScaleMinMaxEnabledSb">autoScaleMinMaxEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>flag that indicates if auto scaling on the y axis is enabled.
+if yes, the y axis automatically adjusts to the min and max y values of the current x axis range whenever the viewport changes</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">autoScaleMinMaxEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase24isAutoScaleMinMaxEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/isAutoScaleMinMaxEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase24isAutoScaleMinMaxEnabledSb">isAutoScaleMinMaxEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><strong>default</strong>: false
+- returns: true if auto scaling on the y axis is enabled.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isAutoScaleMinMaxEnabled</span> <span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">return</span> <span class="n">autoScaleMinMaxEnabled</span><span class="p">;</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if auto scaling on the y axis is enabled.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase16setYAxisMinWidthFS0_FTOCS_10ChartYAxis14AxisDependency5widthV12CoreGraphics7CGFloat_T_"></a>
+                    <a name="//apple_ref/swift/Method/setYAxisMinWidth(_:width:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase16setYAxisMinWidthFS0_FTOCS_10ChartYAxis14AxisDependency5widthV12CoreGraphics7CGFloat_T_">setYAxisMinWidth(_:width:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets a minimum width to the specified y axis.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setYAxisMinWidth</span><span class="p">(</span><span class="nv">which</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">,</span> <span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase16getYAxisMinWidthFS0_FOCS_10ChartYAxis14AxisDependencyV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Method/getYAxisMinWidth(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase16getYAxisMinWidthFS0_FOCS_10ChartYAxis14AxisDependencyV12CoreGraphics7CGFloat">getYAxisMinWidth(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><strong>default</strong>: 0.0
+- returns: the (custom) minimum width of the specified Y axis.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getYAxisMinWidth</span><span class="p">(</span><span class="nv">which</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the (custom) minimum width of the specified Y axis.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase16setYAxisMaxWidthFS0_FTOCS_10ChartYAxis14AxisDependency5widthV12CoreGraphics7CGFloat_T_"></a>
+                    <a name="//apple_ref/swift/Method/setYAxisMaxWidth(_:width:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase16setYAxisMaxWidthFS0_FTOCS_10ChartYAxis14AxisDependency5widthV12CoreGraphics7CGFloat_T_">setYAxisMaxWidth(_:width:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets a maximum width to the specified y axis.
+Zero (0.0) means there&rsquo;s no maximum width</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setYAxisMaxWidth</span><span class="p">(</span><span class="nv">which</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">,</span> <span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase16getYAxisMaxWidthFS0_FOCS_10ChartYAxis14AxisDependencyV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Method/getYAxisMaxWidth(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase16getYAxisMaxWidthFS0_FOCS_10ChartYAxis14AxisDependencyV12CoreGraphics7CGFloat">getYAxisMaxWidth(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Zero (0.0) means there&rsquo;s no maximum width</p>
+
+<p><strong>default</strong>: 0.0 (no maximum specified)
+- returns: the (custom) maximum width of the specified Y axis.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getYAxisMaxWidth</span><span class="p">(</span><span class="nv">which</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the (custom) maximum width of the specified Y axis.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase13getYAxisWidthFS0_FOCS_10ChartYAxis14AxisDependencyV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Method/getYAxisWidth(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase13getYAxisWidthFS0_FOCS_10ChartYAxis14AxisDependencyV12CoreGraphics7CGFloat">getYAxisWidth(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getYAxisWidth</span><span class="p">(</span><span class="nv">which</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/BarLineScatterCandleBubbleChartDataProvider"></a>
+                <a name="//apple_ref/swift/Section/BarLineScatterCandleBubbleChartDataProvider" class="dashAnchor"></a>
+                <a href="#/BarLineScatterCandleBubbleChartDataProvider">
+                  <h3 class="section-name">BarLineScatterCandleBubbleChartDataProvider</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20BarLineChartViewBase14getTransformerFS0_FOCS_10ChartYAxis14AxisDependencyCS_16ChartTransformer"></a>
+                    <a name="//apple_ref/swift/Method/getTransformer(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20BarLineChartViewBase14getTransformerFS0_FOCS_10ChartYAxis14AxisDependencyCS_16ChartTransformer">getTransformer(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getTransformer</span><span class="p">(</span><span class="nv">which</span><span class="p">:</span> <span class="kt">ChartYAxis</span><span class="o">.</span><span class="kt">AxisDependency</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ChartTransformer</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the Transformer class that contains all matrices and is responsible for transforming values into pixels on the screen and backwards.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase20maxVisibleValueCountSi"></a>
+                    <a name="//apple_ref/swift/Property/maxVisibleValueCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase20maxVisibleValueCountSi">maxVisibleValueCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the number of maximum visible drawn values on the chart
+only active when <code>setDrawValues()</code> is enabled</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">maxVisibleValueCount</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase19lowestVisibleXIndexSi"></a>
+                    <a name="//apple_ref/swift/Property/lowestVisibleXIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase19lowestVisibleXIndexSi">lowestVisibleXIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">lowestVisibleXIndex</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the lowest x-index (value on the x-axis) that is still visible on he chart.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20BarLineChartViewBase20highestVisibleXIndexSi"></a>
+                    <a name="//apple_ref/swift/Property/highestVisibleXIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20BarLineChartViewBase20highestVisibleXIndexSi">highestVisibleXIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">highestVisibleXIndex</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the highest x-index (value on the x-axis) that is still visible on the chart.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external">Akhil</a>. All rights reserved. (Last updated: 2016-02-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.5.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

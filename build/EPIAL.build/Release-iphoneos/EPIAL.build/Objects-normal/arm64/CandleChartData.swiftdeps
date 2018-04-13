@@ -1,0 +1,70 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CandleChartData"
+provides-nominal:
+- "C5EPIAL15CandleChartData"
+provides-member:
+- ["C5EPIAL15CandleChartData", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "NSObject"
+- "CandleChartData"
+- "ChartDataSet"
+- "BarLineScatterCandleBubbleChartData"
+depends-member:
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", ""]
+- ["C5EPIAL35BarLineScatterCandleBubbleChartData", "ChartDataSet"]
+- ["C5EPIAL35BarLineScatterCandleBubbleChartData", "NSObject"]
+- ["C5EPIAL35BarLineScatterCandleBubbleChartData", "String"]
+- ["C5EPIAL35BarLineScatterCandleBubbleChartData", "init"]
+- ["C5EPIAL35BarLineScatterCandleBubbleChartData", ""]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", ""]
+- ["C5EPIAL15CandleChartData", "ChartDataSet"]
+- ["C5EPIAL15CandleChartData", "NSObject"]
+- ["C5EPIAL15CandleChartData", "String"]
+- ["C5EPIAL15CandleChartData", "deinit"]
+- ["C5EPIAL15CandleChartData", "init"]
+- ["C5EPIAL9ChartData", "ChartDataSet"]
+- ["C5EPIAL9ChartData", "NSObject"]
+- ["C5EPIAL9ChartData", "String"]
+- ["C5EPIAL9ChartData", "init"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", ""]
+- ["CSo8NSObject", "ChartDataSet"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "C5EPIAL35BarLineScatterCandleBubbleChartData"
+- "PSs11CVarArgType"
+- "C5EPIAL15CandleChartData"
+- "C5EPIAL9ChartData"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL-Bridging-Header.h"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL/PunchScrollView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+interface-hash: "7f062466ff890c52294adc88b4ad9686"

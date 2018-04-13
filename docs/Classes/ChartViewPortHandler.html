@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ChartViewPortHandler Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ChartViewPortHandler" class="dashAnchor"></a>
+    <a title="ChartViewPortHandler Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (42% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ChartViewPortHandler Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BarChartView.html">BarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL25BarLineChartFillFormatter">BarLineChartFillFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BarLineChartViewBase.html">BarLineChartViewBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL19BodyPartsDetailView">BodyPartsDetailView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL29BodyPartsDetailViewController">BodyPartsDetailViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL20CandleStickChartView">CandleStickChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartComponentBase.html">ChartComponentBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL31ChartDefaultXAxisValueFormatter">ChartDefaultXAxisValueFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartLimitLine.html">ChartLimitLine</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartTransformer.html">ChartTransformer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartViewPortHandler.html">ChartViewPortHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartYAxis.html">ChartYAxis</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CombinedChartView.html">CombinedChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPDatePickerView.html">EPDatePickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPHistoryTableView.html">EPHistoryTableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22EPHistoryTableViewCell">EPHistoryTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22EPNavigationController">EPNavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPPickerView.html">EPPickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL16ElectronicManual">ElectronicManual</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GraphViewController.html">GraphViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22HorizontalBarChartView">HorizontalBarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL23HumanBodyViewController">HumanBodyViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL13LineChartData">LineChartData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL13LineChartView">LineChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Logger.html">Logger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoggerViewController.html">LoggerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PDFViewController.html">PDFViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PieChartView.html">PieChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PieRadarChartViewBase.html">PieRadarChartViewBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RadarChartView.html">RadarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL16ScatterChartView">ScatterChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL17TabViewController">TabViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:O5EPIAL10DeviceType">DeviceType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ChartFillFormatter.html">ChartFillFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChartXAxisValueFormatter.html">ChartXAxisValueFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DatePickerSelectionDelegate.html">DatePickerSelectionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PickerSelectionDelegate.html">PickerSelectionDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL16DeviceAIDDetails">DeviceAIDDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL14DeviceMDetails">DeviceMDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL19EPDeviceInformation">EPDeviceInformation</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ChartViewPortHandler</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ChartViewPortHandler</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Class that contains information about the charts current viewport settings, including offsets, scale &amp; translation levels, &hellip;</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20ChartViewPortHandlercFMS0_FT5widthV12CoreGraphics7CGFloat6heightS2__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(width:height:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20ChartViewPortHandlercFMS0_FT5widthV12CoreGraphics7CGFloat6heightS2__S0_">init(width:height:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructor - don&rsquo;t forget calling setChartDimens(&hellip;)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Scaling/Panning%20etc."></a>
+                <a name="//apple_ref/swift/Section/Scaling/Panning etc." class="dashAnchor"></a>
+                <a href="#/Scaling/Panning%20etc.">
+                  <h3 class="section-name">Scaling/Panning etc.</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20ChartViewPortHandler4zoomFS0_FT6scaleXV12CoreGraphics7CGFloat6scaleYS2_1xS2_1yS2__VSC17CGAffineTransform"></a>
+                    <a name="//apple_ref/swift/Method/zoom(scaleX:scaleY:x:y:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20ChartViewPortHandler4zoomFS0_FT6scaleXV12CoreGraphics7CGFloat6scaleYS2_1xS2_1yS2__VSC17CGAffineTransform">zoom(scaleX:scaleY:x:y:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Zooms around the specified center</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">zoom</span><span class="p">(</span><span class="n">scaleX</span> <span class="nv">scaleX</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">scaleY</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">x</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGAffineTransform</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20ChartViewPortHandler6zoomInFS0_FT1xV12CoreGraphics7CGFloat1yS2__VSC17CGAffineTransform"></a>
+                    <a name="//apple_ref/swift/Method/zoomIn(x:y:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20ChartViewPortHandler6zoomInFS0_FT1xV12CoreGraphics7CGFloat1yS2__VSC17CGAffineTransform">zoomIn(x:y:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Zooms in by 1.4, x and y are the coordinates (in pixels) of the zoom center.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">zoomIn</span><span class="p">(</span><span class="n">x</span> <span class="nv">x</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGAffineTransform</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20ChartViewPortHandler7zoomOutFS0_FT1xV12CoreGraphics7CGFloat1yS2__VSC17CGAffineTransform"></a>
+                    <a name="//apple_ref/swift/Method/zoomOut(x:y:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20ChartViewPortHandler7zoomOutFS0_FT1xV12CoreGraphics7CGFloat1yS2__VSC17CGAffineTransform">zoomOut(x:y:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Zooms out by 0.7, x and y are the coordinates (in pixels) of the zoom center.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">zoomOut</span><span class="p">(</span><span class="n">x</span> <span class="nv">x</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGAffineTransform</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20ChartViewPortHandler9fitScreenFS0_FT_VSC17CGAffineTransform"></a>
+                    <a name="//apple_ref/swift/Method/fitScreen()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20ChartViewPortHandler9fitScreenFS0_FT_VSC17CGAffineTransform">fitScreen()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Resets all zooming and dragging and makes the chart fit exactly it&rsquo;s bounds.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">fitScreen</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGAffineTransform</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20ChartViewPortHandler14centerViewPortFS0_FT2ptVSC7CGPoint5chartCS_13ChartViewBase_T_"></a>
+                    <a name="//apple_ref/swift/Method/centerViewPort(pt:chart:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20ChartViewPortHandler14centerViewPortFS0_FT2ptVSC7CGPoint5chartCS_13ChartViewBase_T_">centerViewPort(pt:chart:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Centers the viewport around the specified position (x-index and y-value) in the chart.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">centerViewPort</span><span class="p">(</span><span class="n">pt</span> <span class="nv">pt</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">chart</span><span class="p">:</span> <span class="kt">ChartViewBase</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20ChartViewPortHandler7refreshFS0_FT9newMatrixVSC17CGAffineTransform5chartCS_13ChartViewBase10invalidateSb_S1_"></a>
+                    <a name="//apple_ref/swift/Method/refresh(newMatrix:chart:invalidate:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20ChartViewPortHandler7refreshFS0_FT9newMatrixVSC17CGAffineTransform5chartCS_13ChartViewBase10invalidateSb_S1_">refresh(newMatrix:chart:invalidate:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>call this method to refresh the graph with a given matrix</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">refresh</span><span class="p">(</span><span class="n">newMatrix</span> <span class="nv">newMatrix</span><span class="p">:</span> <span class="kt">CGAffineTransform</span><span class="p">,</span> <span class="nv">chart</span><span class="p">:</span> <span class="kt">ChartViewBase</span><span class="p">,</span> <span class="nv">invalidate</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGAffineTransform</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20ChartViewPortHandler16setMinimumScaleXFS0_FV12CoreGraphics7CGFloatT_"></a>
+                    <a name="//apple_ref/swift/Method/setMinimumScaleX(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20ChartViewPortHandler16setMinimumScaleXFS0_FV12CoreGraphics7CGFloatT_">setMinimumScaleX(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the minimum scale factor for the x-axis</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setMinimumScaleX</span><span class="p">(</span><span class="nv">xScale</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20ChartViewPortHandler16setMaximumScaleXFS0_FV12CoreGraphics7CGFloatT_"></a>
+                    <a name="//apple_ref/swift/Method/setMaximumScaleX(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20ChartViewPortHandler16setMaximumScaleXFS0_FV12CoreGraphics7CGFloatT_">setMaximumScaleX(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the maximum scale factor for the x-axis</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setMaximumScaleX</span><span class="p">(</span><span class="nv">xScale</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20ChartViewPortHandler15setMinMaxScaleXFS0_FT9minScaleXV12CoreGraphics7CGFloat9maxScaleXS2__T_"></a>
+                    <a name="//apple_ref/swift/Method/setMinMaxScaleX(minScaleX:maxScaleX:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20ChartViewPortHandler15setMinMaxScaleXFS0_FT9minScaleXV12CoreGraphics7CGFloat9maxScaleXS2__T_">setMinMaxScaleX(minScaleX:maxScaleX:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the minimum and maximum scale factors for the x-axis</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setMinMaxScaleX</span><span class="p">(</span><span class="n">minScaleX</span> <span class="nv">minScaleX</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">maxScaleX</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20ChartViewPortHandler16setMinimumScaleYFS0_FV12CoreGraphics7CGFloatT_"></a>
+                    <a name="//apple_ref/swift/Method/setMinimumScaleY(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20ChartViewPortHandler16setMinimumScaleYFS0_FV12CoreGraphics7CGFloatT_">setMinimumScaleY(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the minimum scale factor for the y-axis</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setMinimumScaleY</span><span class="p">(</span><span class="nv">yScale</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20ChartViewPortHandler16setMaximumScaleYFS0_FV12CoreGraphics7CGFloatT_"></a>
+                    <a name="//apple_ref/swift/Method/setMaximumScaleY(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20ChartViewPortHandler16setMaximumScaleYFS0_FV12CoreGraphics7CGFloatT_">setMaximumScaleY(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the maximum scale factor for the y-axis</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setMaximumScaleY</span><span class="p">(</span><span class="nv">yScale</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Boundaries%20Check"></a>
+                <a name="//apple_ref/swift/Section/Boundaries Check" class="dashAnchor"></a>
+                <a href="#/Boundaries%20Check">
+                  <h3 class="section-name">Boundaries Check</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20ChartViewPortHandler6scaleXV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/scaleX" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20ChartViewPortHandler6scaleXV12CoreGraphics7CGFloat">scaleX</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">scaleX</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the current x-scale factor</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20ChartViewPortHandler6scaleYV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/scaleY" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20ChartViewPortHandler6scaleYV12CoreGraphics7CGFloat">scaleY</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">scaleY</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the current y-scale factor</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20ChartViewPortHandler6transXV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/transX" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20ChartViewPortHandler6transXV12CoreGraphics7CGFloat">transX</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">transX</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the translation (drag / pan) distance on the x-axis</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20ChartViewPortHandler6transYV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/transY" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20ChartViewPortHandler6transYV12CoreGraphics7CGFloat">transY</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">transY</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the translation (drag / pan) distance on the y-axis</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20ChartViewPortHandler16isFullyZoomedOutSb"></a>
+                    <a name="//apple_ref/swift/Property/isFullyZoomedOut" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20ChartViewPortHandler16isFullyZoomedOutSb">isFullyZoomedOut</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>if the chart is fully zoomed out, return true</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isFullyZoomedOut</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20ChartViewPortHandler17isFullyZoomedOutYSb"></a>
+                    <a name="//apple_ref/swift/Property/isFullyZoomedOutY" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20ChartViewPortHandler17isFullyZoomedOutYSb">isFullyZoomedOutY</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isFullyZoomedOutY</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if the chart is fully zoomed out on it&rsquo;s y-axis (vertical).</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20ChartViewPortHandler17isFullyZoomedOutXSb"></a>
+                    <a name="//apple_ref/swift/Property/isFullyZoomedOutX" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20ChartViewPortHandler17isFullyZoomedOutXSb">isFullyZoomedOutX</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isFullyZoomedOutX</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if the chart is fully zoomed out on it&rsquo;s x-axis (horizontal).</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20ChartViewPortHandler14setDragOffsetXFS0_FV12CoreGraphics7CGFloatT_"></a>
+                    <a name="//apple_ref/swift/Method/setDragOffsetX(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20ChartViewPortHandler14setDragOffsetXFS0_FV12CoreGraphics7CGFloatT_">setDragOffsetX(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set an offset in pixels that allows the user to drag the chart over it&rsquo;s bounds on the x-axis.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDragOffsetX</span><span class="p">(</span><span class="nv">offset</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL20ChartViewPortHandler14setDragOffsetYFS0_FV12CoreGraphics7CGFloatT_"></a>
+                    <a name="//apple_ref/swift/Method/setDragOffsetY(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL20ChartViewPortHandler14setDragOffsetYFS0_FV12CoreGraphics7CGFloatT_">setDragOffsetY(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set an offset in pixels that allows the user to drag the chart over it&rsquo;s bounds on the y-axis.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDragOffsetY</span><span class="p">(</span><span class="nv">offset</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20ChartViewPortHandler15hasNoDragOffsetSb"></a>
+                    <a name="//apple_ref/swift/Property/hasNoDragOffset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20ChartViewPortHandler15hasNoDragOffsetSb">hasNoDragOffset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">hasNoDragOffset</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if both drag offsets (x and y) are zero or smaller.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20ChartViewPortHandler15canZoomOutMoreXSb"></a>
+                    <a name="//apple_ref/swift/Property/canZoomOutMoreX" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20ChartViewPortHandler15canZoomOutMoreXSb">canZoomOutMoreX</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">canZoomOutMoreX</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if the chart is not yet fully zoomed out on the x-axis</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20ChartViewPortHandler14canZoomInMoreXSb"></a>
+                    <a name="//apple_ref/swift/Property/canZoomInMoreX" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20ChartViewPortHandler14canZoomInMoreXSb">canZoomInMoreX</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">canZoomInMoreX</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if the chart is not yet fully zoomed in on the x-axis</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20ChartViewPortHandler15canZoomOutMoreYSb"></a>
+                    <a name="//apple_ref/swift/Property/canZoomOutMoreY" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20ChartViewPortHandler15canZoomOutMoreYSb">canZoomOutMoreY</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">canZoomOutMoreY</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if the chart is not yet fully zoomed out on the y-axis</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL20ChartViewPortHandler14canZoomInMoreYSb"></a>
+                    <a name="//apple_ref/swift/Property/canZoomInMoreY" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL20ChartViewPortHandler14canZoomInMoreYSb">canZoomInMoreY</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">canZoomInMoreY</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if the chart is not yet fully zoomed in on the y-axis</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external">Akhil</a>. All rights reserved. (Last updated: 2016-02-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.5.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

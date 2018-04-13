@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ProximaNova-Bold_0.ttf">
+            <string>ProximaNova-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EPPickerView" customModule="EPIAL" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OWT-sG-4tw">
+                    <rect key="frame" x="0.0" y="61" width="320" height="194"/>
+                    <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="OWT-sG-4tw" secondAttribute="height" multiplier="320:177" constant="-30.734463276836152" id="mG0-dS-wb1"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="yTQ-D5-atW"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="HHU-Ip-Brh"/>
+                    </connections>
+                </pickerView>
+                <imageView alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d8R-XY-qir">
+                    <rect key="frame" x="0.0" y="253" width="320" height="315"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </imageView>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XvH-m4-JpJ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSP-z9-I5u">
+                            <rect key="frame" x="60" y="33" width="200" height="31"/>
+                            <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="16"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYf-8u-bba">
+                            <rect key="frame" x="15" y="18" width="47" height="46"/>
+                            <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="15"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="15" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="Q9j-fa-hSX"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMW-MX-w9s">
+                            <rect key="frame" x="268" y="18" width="44" height="46"/>
+                            <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="15"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="15" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Done">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="doneButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="UQn-BY-mqt"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.41568627450980389" green="0.51372549019607838" blue="0.52941176470588236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="TMW-MX-w9s" firstAttribute="trailing" secondItem="XvH-m4-JpJ" secondAttribute="trailingMargin" id="7YP-4R-9Zt"/>
+                        <constraint firstItem="oSP-z9-I5u" firstAttribute="leading" secondItem="XvH-m4-JpJ" secondAttribute="leading" constant="60" id="8Wb-wH-ofF"/>
+                        <constraint firstItem="TMW-MX-w9s" firstAttribute="firstBaseline" secondItem="KYf-8u-bba" secondAttribute="baseline" id="Eug-HQ-Qu2"/>
+                        <constraint firstItem="KYf-8u-bba" firstAttribute="leading" secondItem="XvH-m4-JpJ" secondAttribute="leading" constant="15" id="F3p-1u-PJa"/>
+                        <constraint firstAttribute="bottom" secondItem="KYf-8u-bba" secondAttribute="bottom" id="FsV-Nl-iLs"/>
+                        <constraint firstItem="TMW-MX-w9s" firstAttribute="top" secondItem="KYf-8u-bba" secondAttribute="top" id="Qyb-JA-6EW"/>
+                        <constraint firstItem="TMW-MX-w9s" firstAttribute="baseline" secondItem="KYf-8u-bba" secondAttribute="firstBaseline" id="Y4b-Cu-Cda"/>
+                        <constraint firstItem="oSP-z9-I5u" firstAttribute="top" secondItem="XvH-m4-JpJ" secondAttribute="top" constant="33" id="cT9-mA-qcd"/>
+                        <constraint firstItem="oSP-z9-I5u" firstAttribute="centerX" secondItem="XvH-m4-JpJ" secondAttribute="centerX" id="miO-Qp-Okl"/>
+                        <constraint firstItem="KYf-8u-bba" firstAttribute="top" secondItem="XvH-m4-JpJ" secondAttribute="top" constant="18" id="qGA-SO-HlB"/>
+                        <constraint firstItem="TMW-MX-w9s" firstAttribute="leading" secondItem="oSP-z9-I5u" secondAttribute="trailing" constant="8" symbolic="YES" id="sTM-T4-Ro3"/>
+                        <constraint firstItem="TMW-MX-w9s" firstAttribute="bottom" secondItem="oSP-z9-I5u" secondAttribute="bottom" id="zlf-GW-YT1"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="OWT-sG-4tw" secondAttribute="bottom" constant="313" id="9gL-sO-NJB"/>
+                <constraint firstItem="XvH-m4-JpJ" firstAttribute="trailing" secondItem="OWT-sG-4tw" secondAttribute="trailing" id="EbP-we-F4g"/>
+                <constraint firstItem="XvH-m4-JpJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Fpf-sa-eda"/>
+                <constraint firstItem="XvH-m4-JpJ" firstAttribute="leading" secondItem="OWT-sG-4tw" secondAttribute="leading" id="JaO-Jt-rtP"/>
+                <constraint firstItem="d8R-XY-qir" firstAttribute="top" secondItem="OWT-sG-4tw" secondAttribute="bottom" constant="-2" id="Ntq-SG-rYI"/>
+                <constraint firstItem="XvH-m4-JpJ" firstAttribute="trailing" secondItem="d8R-XY-qir" secondAttribute="trailing" id="Sj8-xF-KM0"/>
+                <constraint firstAttribute="bottom" secondItem="d8R-XY-qir" secondAttribute="bottom" id="Ubx-7n-vgU"/>
+                <constraint firstItem="OWT-sG-4tw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WeE-HA-DTR"/>
+                <constraint firstItem="OWT-sG-4tw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="61" id="X7l-iM-zNa"/>
+                <constraint firstItem="OWT-sG-4tw" firstAttribute="top" secondItem="XvH-m4-JpJ" secondAttribute="bottom" constant="-3" id="ary-N6-aaN"/>
+                <constraint firstItem="XvH-m4-JpJ" firstAttribute="leading" secondItem="d8R-XY-qir" secondAttribute="leading" id="mDs-9w-i1W"/>
+                <constraint firstAttribute="trailing" secondItem="OWT-sG-4tw" secondAttribute="trailing" id="vTg-C7-meJ"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="9gL-sO-NJB"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="doneButton" destination="TMW-MX-w9s" id="UH5-Fy-nmn"/>
+                <outlet property="picker" destination="OWT-sG-4tw" id="qkG-9h-y1M"/>
+                <outlet property="pickerTitle" destination="oSP-z9-I5u" id="Gs2-LU-r5a"/>
+            </connections>
+            <point key="canvasLocation" x="45" y="131"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D8C0A950-0D6F-427D-913F-674CD792F7A0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AC7EFFF376F4378CCEF3C67126F222E43C7A9EF3</key>
+		<string>https://bitbucket.org/epil_damco/epil.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EPIAL.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AC7EFFF376F4378CCEF3C67126F222E43C7A9EF3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/epil_damco/epil.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AC7EFFF376F4378CCEF3C67126F222E43C7A9EF3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC7EFFF376F4378CCEF3C67126F222E43C7A9EF3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EPILTeam_20151222</string>
+		</dict>
+	</array>
+</dict>
+</plist>

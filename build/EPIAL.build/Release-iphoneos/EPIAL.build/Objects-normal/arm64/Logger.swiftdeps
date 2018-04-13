@@ -1,0 +1,441 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Logger"
+provides-nominal:
+- "C5EPIAL6Logger"
+provides-member:
+- ["C5EPIAL6Logger", ""]
+provides-dynamic-lookup:
+- "addHistory"
+- "fetchAllHistory"
+- "deleteHistory"
+depends-top-level:
+- !private "NSSortDescriptor"
+- "String"
+- "NSManagedObject"
+- !private "NSEntityDescription"
+- !private "StringLiteralType"
+- !private "Array"
+- !private "UIApplication"
+- !private "NSError"
+- !private "NSFetchRequest"
+- !private "NSString"
+- !private "NSNumber"
+- !private "print"
+- !private "AppDelegate"
+- "Int"
+- !private "BooleanLiteralType"
+- "Logger"
+- "NSDate"
+depends-member:
+- !private ["PSs9AnyObject", "NSEntityDescription"]
+- !private ["PSs9AnyObject", "NSFetchRequest"]
+- !private ["PSs9AnyObject", "NSManagedObject"]
+- !private ["PSs9AnyObject", "NSNumber"]
+- !private ["PSs9AnyObject", "NSSortDescriptor"]
+- !private ["PSs9AnyObject", "UIApplication"]
+- ["PSs9AnyObject", "addHistory"]
+- !private ["PSs9AnyObject", "dateTime"]
+- !private ["PSs9AnyObject", "delegate"]
+- ["PSs9AnyObject", "deleteHistory"]
+- !private ["PSs9AnyObject", "deleteObject"]
+- !private ["PSs9AnyObject", "entityForName"]
+- !private ["PSs9AnyObject", "executeFetchRequest"]
+- ["PSs9AnyObject", "fetchAllHistory"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "managedObjectContext"]
+- !private ["PSs9AnyObject", "painLevel"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "save"]
+- !private ["PSs9AnyObject", "sharedApplication"]
+- !private ["PSs9AnyObject", "sortDescriptors"]
+- !private ["PSs9AnyObject", "treatmentDuration"]
+- !private ["PSs9AnyObject", "types"]
+- !private ["PSs9AnyObject", "userInfo"]
+- ["PSs9AnyObject", ""]
+- !private ["C5EPIAL11AppDelegate", "managedObjectContext"]
+- !private ["Sa", "Element"]
+- !private ["Sa", "deinit"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "init"]
+- !private ["PSs11CVarArgType", "NSEntityDescription"]
+- !private ["PSs11CVarArgType", "NSFetchRequest"]
+- !private ["PSs11CVarArgType", "NSManagedObject"]
+- !private ["PSs11CVarArgType", "NSNumber"]
+- !private ["PSs11CVarArgType", "NSSortDescriptor"]
+- !private ["PSs11CVarArgType", "UIApplication"]
+- ["PSs11CVarArgType", "addHistory"]
+- !private ["PSs11CVarArgType", "dateTime"]
+- !private ["PSs11CVarArgType", "delegate"]
+- ["PSs11CVarArgType", "deleteHistory"]
+- !private ["PSs11CVarArgType", "deleteObject"]
+- !private ["PSs11CVarArgType", "entityForName"]
+- !private ["PSs11CVarArgType", "executeFetchRequest"]
+- ["PSs11CVarArgType", "fetchAllHistory"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "managedObjectContext"]
+- !private ["PSs11CVarArgType", "painLevel"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "save"]
+- !private ["PSs11CVarArgType", "sharedApplication"]
+- !private ["PSs11CVarArgType", "sortDescriptors"]
+- !private ["PSs11CVarArgType", "treatmentDuration"]
+- !private ["PSs11CVarArgType", "types"]
+- !private ["PSs11CVarArgType", "userInfo"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "NSEntityDescription"]
+- !private ["PSs23CustomStringConvertible", "NSFetchRequest"]
+- !private ["PSs23CustomStringConvertible", "NSManagedObject"]
+- !private ["PSs23CustomStringConvertible", "NSNumber"]
+- !private ["PSs23CustomStringConvertible", "NSSortDescriptor"]
+- !private ["PSs23CustomStringConvertible", "UIApplication"]
+- ["PSs23CustomStringConvertible", "addHistory"]
+- !private ["PSs23CustomStringConvertible", "dateTime"]
+- !private ["PSs23CustomStringConvertible", "delegate"]
+- ["PSs23CustomStringConvertible", "deleteHistory"]
+- !private ["PSs23CustomStringConvertible", "deleteObject"]
+- !private ["PSs23CustomStringConvertible", "entityForName"]
+- !private ["PSs23CustomStringConvertible", "executeFetchRequest"]
+- ["PSs23CustomStringConvertible", "fetchAllHistory"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "managedObjectContext"]
+- !private ["PSs23CustomStringConvertible", "painLevel"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "save"]
+- !private ["PSs23CustomStringConvertible", "sharedApplication"]
+- !private ["PSs23CustomStringConvertible", "sortDescriptors"]
+- !private ["PSs23CustomStringConvertible", "treatmentDuration"]
+- !private ["PSs23CustomStringConvertible", "types"]
+- !private ["PSs23CustomStringConvertible", "userInfo"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "NSEntityDescription"]
+- !private ["PSs9Equatable", "NSFetchRequest"]
+- !private ["PSs9Equatable", "NSManagedObject"]
+- !private ["PSs9Equatable", "NSNumber"]
+- !private ["PSs9Equatable", "NSSortDescriptor"]
+- !private ["PSs9Equatable", "UIApplication"]
+- ["PSs9Equatable", "addHistory"]
+- !private ["PSs9Equatable", "dateTime"]
+- !private ["PSs9Equatable", "delegate"]
+- ["PSs9Equatable", "deleteHistory"]
+- !private ["PSs9Equatable", "deleteObject"]
+- !private ["PSs9Equatable", "entityForName"]
+- !private ["PSs9Equatable", "executeFetchRequest"]
+- ["PSs9Equatable", "fetchAllHistory"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "managedObjectContext"]
+- !private ["PSs9Equatable", "painLevel"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "save"]
+- !private ["PSs9Equatable", "sharedApplication"]
+- !private ["PSs9Equatable", "sortDescriptors"]
+- !private ["PSs9Equatable", "treatmentDuration"]
+- !private ["PSs9Equatable", "types"]
+- !private ["PSs9Equatable", "userInfo"]
+- ["PSs9Equatable", ""]
+- !private ["PSs9ErrorType", "userInfo"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs8Hashable", "NSEntityDescription"]
+- !private ["PSs8Hashable", "NSFetchRequest"]
+- !private ["PSs8Hashable", "NSManagedObject"]
+- !private ["PSs8Hashable", "NSNumber"]
+- !private ["PSs8Hashable", "NSSortDescriptor"]
+- !private ["PSs8Hashable", "UIApplication"]
+- ["PSs8Hashable", "addHistory"]
+- !private ["PSs8Hashable", "dateTime"]
+- !private ["PSs8Hashable", "delegate"]
+- ["PSs8Hashable", "deleteHistory"]
+- !private ["PSs8Hashable", "deleteObject"]
+- !private ["PSs8Hashable", "entityForName"]
+- !private ["PSs8Hashable", "executeFetchRequest"]
+- ["PSs8Hashable", "fetchAllHistory"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "managedObjectContext"]
+- !private ["PSs8Hashable", "painLevel"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "save"]
+- !private ["PSs8Hashable", "sharedApplication"]
+- !private ["PSs8Hashable", "sortDescriptors"]
+- !private ["PSs8Hashable", "treatmentDuration"]
+- !private ["PSs8Hashable", "types"]
+- !private ["PSs8Hashable", "userInfo"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Element"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["C5EPIAL6Logger", "AppDelegate"]
+- ["C5EPIAL6Logger", "Int"]
+- ["C5EPIAL6Logger", "Logger"]
+- ["C5EPIAL6Logger", "NSDate"]
+- !private ["C5EPIAL6Logger", "NSEntityDescription"]
+- !private ["C5EPIAL6Logger", "NSError"]
+- !private ["C5EPIAL6Logger", "NSFetchRequest"]
+- !private ["C5EPIAL6Logger", "NSManagedObject"]
+- !private ["C5EPIAL6Logger", "NSNumber"]
+- !private ["C5EPIAL6Logger", "NSSortDescriptor"]
+- !private ["C5EPIAL6Logger", "NSString"]
+- ["C5EPIAL6Logger", "String"]
+- !private ["C5EPIAL6Logger", "UIApplication"]
+- ["C5EPIAL6Logger", "addHistory"]
+- !private ["C5EPIAL6Logger", "dateTime"]
+- ["C5EPIAL6Logger", "deinit"]
+- ["C5EPIAL6Logger", "deleteHistory"]
+- ["C5EPIAL6Logger", "fetchAllHistory"]
+- ["C5EPIAL6Logger", "init"]
+- !private ["C5EPIAL6Logger", "painLevel"]
+- !private ["C5EPIAL6Logger", "print"]
+- !private ["C5EPIAL6Logger", "treatmentDuration"]
+- !private ["C5EPIAL6Logger", "types"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSo8NSCoding", "deleteObject"]
+- !private ["PSo8NSCoding", "entityForName"]
+- !private ["PSo8NSCoding", "executeFetchRequest"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "save"]
+- !private ["PSo8NSCoding", "sortDescriptors"]
+- !private ["PSo8NSCoding", "userInfo"]
+- !private ["PSo9NSCopying", "entityForName"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "sortDescriptors"]
+- !private ["PSo9NSCopying", "userInfo"]
+- !private ["CSo19NSEntityDescription", "entityForName"]
+- !private ["CSo7NSError", "userInfo"]
+- !private ["PSo17NSFastEnumeration", "entityForName"]
+- !private ["CSo14NSFetchRequest", "init"]
+- !private ["CSo14NSFetchRequest", "sortDescriptors"]
+- !private ["PSo9NSLocking", "deleteObject"]
+- !private ["PSo9NSLocking", "executeFetchRequest"]
+- !private ["PSo9NSLocking", "save"]
+- !private ["CSo15NSManagedObject", "AppDelegate"]
+- ["CSo15NSManagedObject", "Int"]
+- ["CSo15NSManagedObject", "Logger"]
+- ["CSo15NSManagedObject", "NSDate"]
+- !private ["CSo15NSManagedObject", "NSEntityDescription"]
+- !private ["CSo15NSManagedObject", "NSError"]
+- !private ["CSo15NSManagedObject", "NSFetchRequest"]
+- !private ["CSo15NSManagedObject", "NSManagedObject"]
+- !private ["CSo15NSManagedObject", "NSNumber"]
+- !private ["CSo15NSManagedObject", "NSSortDescriptor"]
+- !private ["CSo15NSManagedObject", "NSString"]
+- ["CSo15NSManagedObject", "String"]
+- !private ["CSo15NSManagedObject", "UIApplication"]
+- ["CSo15NSManagedObject", "addHistory"]
+- !private ["CSo15NSManagedObject", "dateTime"]
+- !private ["CSo15NSManagedObject", "deinit"]
+- ["CSo15NSManagedObject", "deleteHistory"]
+- ["CSo15NSManagedObject", "fetchAllHistory"]
+- ["CSo15NSManagedObject", "init"]
+- !private ["CSo15NSManagedObject", "painLevel"]
+- !private ["CSo15NSManagedObject", "print"]
+- !private ["CSo15NSManagedObject", "treatmentDuration"]
+- !private ["CSo15NSManagedObject", "types"]
+- ["CSo15NSManagedObject", ""]
+- !private ["CSo22NSManagedObjectContext", "deleteObject"]
+- !private ["CSo22NSManagedObjectContext", "executeFetchRequest"]
+- !private ["CSo22NSManagedObjectContext", "save"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSNumber", "init"]
+- !private ["CSo8NSObject", "AppDelegate"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "Logger"]
+- ["CSo8NSObject", "NSDate"]
+- !private ["CSo8NSObject", "NSEntityDescription"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSFetchRequest"]
+- !private ["CSo8NSObject", "NSManagedObject"]
+- !private ["CSo8NSObject", "NSNumber"]
+- !private ["CSo8NSObject", "NSSortDescriptor"]
+- !private ["CSo8NSObject", "NSString"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "addHistory"]
+- !private ["CSo8NSObject", "dateTime"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "deleteHistory"]
+- !private ["CSo8NSObject", "deleteObject"]
+- !private ["CSo8NSObject", "entityForName"]
+- !private ["CSo8NSObject", "executeFetchRequest"]
+- ["CSo8NSObject", "fetchAllHistory"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "managedObjectContext"]
+- !private ["CSo8NSObject", "painLevel"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "save"]
+- !private ["CSo8NSObject", "sharedApplication"]
+- !private ["CSo8NSObject", "sortDescriptors"]
+- !private ["CSo8NSObject", "treatmentDuration"]
+- !private ["CSo8NSObject", "types"]
+- !private ["CSo8NSObject", "userInfo"]
+- !private ["PSo16NSObjectProtocol", "NSEntityDescription"]
+- !private ["PSo16NSObjectProtocol", "NSFetchRequest"]
+- !private ["PSo16NSObjectProtocol", "NSManagedObject"]
+- !private ["PSo16NSObjectProtocol", "NSNumber"]
+- !private ["PSo16NSObjectProtocol", "NSSortDescriptor"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- ["PSo16NSObjectProtocol", "addHistory"]
+- !private ["PSo16NSObjectProtocol", "dateTime"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "deleteHistory"]
+- !private ["PSo16NSObjectProtocol", "deleteObject"]
+- !private ["PSo16NSObjectProtocol", "entityForName"]
+- !private ["PSo16NSObjectProtocol", "executeFetchRequest"]
+- ["PSo16NSObjectProtocol", "fetchAllHistory"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "managedObjectContext"]
+- !private ["PSo16NSObjectProtocol", "painLevel"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "save"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
+- !private ["PSo16NSObjectProtocol", "sortDescriptors"]
+- !private ["PSo16NSObjectProtocol", "treatmentDuration"]
+- !private ["PSo16NSObjectProtocol", "types"]
+- !private ["PSo16NSObjectProtocol", "userInfo"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo24NSPersistentStoreRequest", "init"]
+- !private ["CSo24NSPersistentStoreRequest", "sortDescriptors"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "userInfo"]
+- !private ["CSo16NSSortDescriptor", "init"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo7NSValue", "init"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["CSo13UIApplication", "delegate"]
+- !private ["CSo13UIApplication", "sharedApplication"]
+- !private ["PSo21UIApplicationDelegate", "managedObjectContext"]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "managedObjectContext"]
+- !private ["CSo11UIResponder", "sharedApplication"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "init"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "C5EPIAL11AppDelegate"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs9ErrorType"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs23FloatLiteralConvertible"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs25IntegerLiteralConvertible"
+- "C5EPIAL6Logger"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo19NSEntityDescription"
+- !private "CSo7NSError"
+- !private "PSo17NSFastEnumeration"
+- !private "CSo14NSFetchRequest"
+- !private "PSo9NSLocking"
+- "CSo15NSManagedObject"
+- !private "CSo22NSManagedObjectContext"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo24NSPersistentStoreRequest"
+- !private "PSo14NSSecureCoding"
+- !private "CSo16NSSortDescriptor"
+- !private "CSo8NSString"
+- !private "CSo7NSValue"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "CSo13UIApplication"
+- !private "PSo21UIApplicationDelegate"
+- !private "CSo11UIResponder"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs10_ArrayType"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL-Bridging-Header.h"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL/PunchScrollView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+interface-hash: "471f6cc48d7e86b6a335712be11db72e"

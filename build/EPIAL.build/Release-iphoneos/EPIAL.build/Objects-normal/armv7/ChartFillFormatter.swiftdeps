@@ -1,0 +1,35 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartFillFormatter"
+provides-nominal:
+- "P5EPIAL18ChartFillFormatter"
+provides-member:
+- ["P5EPIAL18ChartFillFormatter", ""]
+provides-dynamic-lookup:
+- "getFillLinePosition"
+depends-top-level:
+- "LineChartDataSet"
+- "LineChartDataProvider"
+- "ChartFillFormatter"
+- "CGFloat"
+depends-member:
+- ["P5EPIAL18ChartFillFormatter", "CGFloat"]
+- ["P5EPIAL18ChartFillFormatter", "LineChartDataProvider"]
+- ["P5EPIAL18ChartFillFormatter", "LineChartDataSet"]
+- ["P5EPIAL18ChartFillFormatter", "getFillLinePosition"]
+depends-nominal:
+- "P5EPIAL18ChartFillFormatter"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL-Bridging-Header.h"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL/PunchScrollView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+interface-hash: "f5d5f51dcc01ec36199cf4b72b7b910f"

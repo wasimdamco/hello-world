@@ -1,0 +1,485 @@
+TabViewController.swift
+	override func viewDidLoad()
+	override func didReceiveMemoryWarning()
+	override func preferredStatusBarStyle() -> UIStatusBarStyle
+LineChartDataSet.swift
+	public class LineChartDataSet: LineRadarChartDataSet
+ChartTransformer.swift
+	internal var _viewPortHandler: ChartViewPortHandler
+	public init(viewPortHandler: ChartViewPortHandler)
+	public func pointValuesToPixel(inout pts: [CGPoint])
+	public func pointValueToPixel(inout point: CGPoint)
+	public var valueToPixelMatrix: CGAffineTransform
+	public var pixelToValueMatrix: CGAffineTransform
+ChartDataApproximatorFilter.swift
+	public class ChartDataApproximatorFilter: ChartDataBaseFilter
+EPPickerView.swift
+	func cancelButtonClicked()
+	@IBOutlet weak var picker: UIPickerView!
+	@IBOutlet weak var pickerTitle: UILabel!
+	var selectedValue: Int = 0
+	var delegate: PickerSelectionDelegate?
+	var inputSelection: InputType?
+	var pickerDataSoruce:[String]?
+	func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int
+	func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int
+	func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?
+	func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int)
+	@IBAction func cancelButtonClicked(sender: AnyObject)
+	@IBAction func doneButtonClicked(sender: AnyObject)
+ChartLegendRenderer.swift
+	public class ChartLegendRenderer: ChartRendererBase
+ChartRange.swift
+	public class ChartRange: NSObject
+ChartAxisRendererBase.swift
+	public class ChartAxisRendererBase: ChartRendererBase
+EPConstants.swift
+	static let nabigationBarHeight: CGFloat = 65.0
+	static let tabBarHeight: CGFloat = 50.0
+	static let screenHeight = UIScreen.mainScreen().bounds.height
+	static let screenWidth = UIScreen.mainScreen().bounds.width
+	static let remainingScreen = EPDeviceInformation.screenHeight - EPDeviceInformation.nabigationBarHeight - EPDeviceInformation.tabBarHeight
+	static let tableRowHeight: CGFloat = EPDeviceInformation.remainingScreen/3.95 // Since the screen design has 4 static ros , which needs to be displayed on the screen at once
+	static let pdfFileNameOptions:[String] = ["AS_M_DeviceOrientation","AS_M_How_to_use_CES","AS_M_How_to_use_TENS"]
+	static let options:[String] = ["Device Orientation", "How to Use CES","How to Use MET", "Probes Treatment Strategy"]
+	static let pdfFileNameOptions:[String] = ["AS_AID_DeviceOrientation","AS_AID_How_to_use_CES"]
+	static let options:[String] = ["Device Orientation","How to Use CES"]
+	struct DeviceDetail
+	struct CustomFonts
+CombinedChartData.swift
+	public class CombinedChartData: BarLineScatterCandleBubbleChartData
+CandleChartData.swift
+	public class CandleChartData: BarLineScatterCandleBubbleChartData
+CandleChartDataSet.swift
+	public class CandleChartDataSet: LineScatterCandleChartDataSet
+ChartDefaultXAxisValueFormatter.swift
+	public func stringForXValue(index: Int, original: String, viewPortHandler: ChartViewPortHandler) -> String
+LineChartView.swift
+	internal override func initialize()
+	internal override func calcMinMax()
+	public var lineData: LineChartData? { return _data as? LineChartData }
+EPDatePickerView.swift
+	func cancelButtonClicked()
+	@IBOutlet weak var datePicker: UIDatePicker!
+	var delegate: DatePickerSelectionDelegate?
+	var inputSelection: InputType?
+	@IBOutlet weak var pickerTitle: UILabel!
+	@IBAction func doneButtonClicked(sender: AnyObject)
+	@IBAction func cancelButtonClicked(sender: AnyObject)
+ChartTransformerHorizontalBarChart.swift
+	public class ChartTransformerHorizontalBarChart: ChartTransformer
+BodyPartsDetailView.swift
+	@IBOutlet weak var bodyPartImageView: UIImageView!
+	@IBOutlet weak var bodyDetailTextView: UITextView!
+	var bodyPartsDetailView:BodyPartsDetailView
+	func configureView(details:[String:String])
+GraphViewController.swift
+	@IBOutlet weak var chartView: CombinedChartView!
+	var loggerArray = [Logger]()
+	override func viewDidLoad()
+	override func viewWillAppear(animated: Bool)
+	override func viewDidAppear(animated: Bool)
+ChartXAxisRendererHorizontalBarChart.swift
+	public class ChartXAxisRendererHorizontalBarChart: ChartXAxisRendererBarChart
+ChartRendererBase.swift
+	public class ChartRendererBase: NSObject
+LineScatterCandleChartDataSet.swift
+	public class LineScatterCandleChartDataSet: BarLineScatterCandleBubbleChartDataSet
+ChartMarker.swift
+	public class ChartMarker: ChartComponentBase
+LineChartData.swift
+	public override init()
+	public override init(xVals: [String?]?, dataSets: [ChartDataSet]?)
+	public override init(xVals: [NSObject]?, dataSets: [ChartDataSet]?)
+BarChartDataEntry.swift
+	public class BarChartDataEntry: ChartDataEntry
+PieChartData.swift
+	public class PieChartData: ChartData
+BarLineScatterCandleBubbleChartData.swift
+	public class BarLineScatterCandleBubbleChartData: ChartData
+EPNavigationController.swift
+	override func awakeFromNib()
+ChartDataSet.swift
+	public class ChartDataSet: NSObject
+ChartYAxisRenderer.swift
+	public class ChartYAxisRenderer: ChartAxisRendererBase
+BubbleChartData.swift
+	public class BubbleChartData: BarLineScatterCandleBubbleChartData
+RadarChartData.swift
+	public class RadarChartData: ChartData
+HorizontalBarChartView.swift
+	internal override func initialize()
+	internal override func calculateOffsets()
+	internal override func prepareValuePxMatrix()
+	internal override func calcModulus()
+	public override func getBarBounds(e: BarChartDataEntry) -> CGRect
+	public override func getPosition(e: ChartDataEntry, axis: ChartYAxis.AxisDependency) -> CGPoint
+	public override func getHighlightByTouchPoint(pt: CGPoint) -> ChartHighlight?
+	public override var lowestVisibleXIndex: Int
+	public override var highestVisibleXIndex: Int
+CandleStickChartView.swift
+	internal override func initialize()
+	internal override func calcMinMax()
+	public var candleData: CandleChartData?
+ChartSelectionDetail.swift
+	public class ChartSelectionDetail: NSObject
+	public func ==(lhs: ChartSelectionDetail, rhs: ChartSelectionDetail) -> Bool
+PieRadarChartViewBase.swift
+	public override init(frame: CGRect)
+	public required init?(coder aDecoder: NSCoder)
+	deinit
+	internal override func initialize()
+	internal override func calcMinMax()
+	public override func notifyDataSetChanged()
+	internal override func calculateOffsets()
+	public override var chartXMax: Double
+	public override var chartXMin: Double
+	public var isRotationEnabled: Bool { return rotationEnabled; }
+	public func spin(duration duration: NSTimeInterval, fromAngle: CGFloat, toAngle: CGFloat, easingOption: ChartEasingOption)
+	public func spin(duration duration: NSTimeInterval, fromAngle: CGFloat, toAngle: CGFloat)
+	public func stopSpinAnimation()
+	public override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?)
+	public override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?)
+	public override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?)
+	public override func touchesCancelled(touches: Set<UITouch>?, withEvent event: UIEvent?)
+	public func stopDeceleration()
+ChartHighlighter.swift
+	internal class ChartHighlighter
+ScatterChartDataProvider.swift
+	public protocol ScatterChartDataProvider: BarLineScatterCandleBubbleChartDataProvider
+LoggerViewController.swift
+	enum InputType
+	@IBOutlet weak var buttonView: UIView!
+	@IBOutlet weak var painButton: UIButton!
+	@IBOutlet weak var treatmentButton: UIButton!
+	@IBOutlet weak var dateTimeButton: UIButton!
+	@IBOutlet weak var typesButton: UIButton!
+	var historyView: EPHistoryTableView?
+	@IBOutlet weak var levelLabel: UILabel!
+	@IBOutlet weak var tableContainer: UIView!
+	@IBOutlet weak var submitButton: UIButton!
+	@IBOutlet weak var resetButton: UIButton!
+	var yAxisRange = 15
+	var yDataSourceValues: [String] = [String]()
+	override func viewDidLoad()
+	override func viewWillAppear(animated: Bool)
+	func setupView()
+	override func didReceiveMemoryWarning()
+	@IBAction func treatmentDurationPressed(sender: AnyObject)
+	@IBAction func painLevelPressed(sender: AnyObject)
+	@IBAction func dateTimePressed(sender: AnyObject)
+	@IBAction func typesPressed(sender: AnyObject)
+	@IBAction func submitButton(sender: AnyObject)
+	func cancelButtonClicked()
+	@IBAction func resetButtonClicked(sender: AnyObject)
+	func setDefaultTime()
+ChartData.swift
+	public class ChartData: NSObject
+LineChartDataProvider.swift
+	public protocol LineChartDataProvider: BarLineScatterCandleBubbleChartDataProvider
+RadarChartRenderer.swift
+	public class RadarChartRenderer: LineScatterCandleRadarChartRenderer
+BarChartData.swift
+	public class BarChartData: BarLineScatterCandleBubbleChartData
+BarLineScatterCandleBubbleChartDataSet.swift
+	public class BarLineScatterCandleBubbleChartDataSet: ChartDataSet
+BodyPartsDetailViewController.swift
+	@IBOutlet weak var pageControl: UIPageControl!
+	@IBOutlet weak var scrollviewBase: PunchScrollView!
+	var selectedBodyPart: String?
+	override func viewDidLoad()
+	override func viewWillDisappear(animated: Bool)
+	override func didReceiveMemoryWarning()
+	func fetchData(selectedData: AnyObject)-> (text:String, imageName:String)?
+	func configurePageControl()
+	func numberOfSectionsInPunchScrollView(scrollView: PunchScrollView!) -> Int
+	func punchscrollView(scrollView: PunchScrollView!, numberOfPagesInSection section: Int) -> Int
+	func punchScrollView(scrollView: PunchScrollView!, viewForPageAtIndexPath indexPath: NSIndexPath!) -> UIView!
+	func loadSourceData()
+	func scrollViewDidEndDecelerating(scrollView: UIScrollView)
+ChartViewBase.swift
+	public protocol ChartViewDelegate
+	public class ChartViewBase: UIView, ChartDataProvider, ChartAnimatorDelegate
+ScatterChartData.swift
+	public class ScatterChartData: BarLineScatterCandleBubbleChartData
+BarChartHighlighter.swift
+	internal class BarChartHighlighter: ChartHighlighter
+AppDelegate.swift
+	class AppDelegate: UIResponder, UIApplicationDelegate
+ChartLimitLine.swift
+	public enum ChartLimitLabelPosition: Int
+	public var lineColor = UIColor(red: 237.0/255.0, green: 91.0/255.0, blue: 91.0/255.0, alpha: 1.0)
+	public var lineDashPhase = CGFloat(0.0)
+	public var lineDashLengths: [CGFloat]?
+	public var valueTextColor = UIColor.blackColor()
+	public var valueFont = UIFont.systemFontOfSize(13.0)
+	public var label = ""
+	public var labelPosition = ChartLimitLabelPosition.RightTop
+	public override init()
+	public init(limit: Double)
+	public init(limit: Double, label: String)
+HorizontalBarChartHighlighter.swift
+	internal class HorizontalBarChartHighlighter: BarChartHighlighter
+ScatterChartDataSet.swift
+	public class ScatterChartDataSet: LineScatterCandleChartDataSet
+ChartYAxisRendererRadarChart.swift
+	public class ChartYAxisRendererRadarChart: ChartYAxisRenderer
+ChartDataRendererBase.swift
+	public class ChartDataRendererBase: ChartRendererBase
+PieChartView.swift
+	public override init(frame: CGRect)
+	public required init?(coder aDecoder: NSCoder)
+	internal override func initialize()
+	public override func drawRect(rect: CGRect)
+	internal override func calculateOffsets()
+	internal override func calcMinMax()
+	public override func getMarkerPosition(entry e: ChartDataEntry, highlight: ChartHighlight) -> CGPoint
+	public override func indexForAngle(angle: CGFloat) -> Int
+	internal override var requiredLegendOffset: CGFloat
+	internal override var requiredBaseOffset: CGFloat
+	public override var radius: CGFloat
+BarChartDataSet.swift
+	public class BarChartDataSet: BarLineScatterCandleBubbleChartDataSet
+LineChartRenderer.swift
+	public class LineChartRenderer: LineScatterCandleRadarChartRenderer
+BarChartView.swift
+	internal override func initialize()
+	internal override func calcMinMax()
+	public override var lowestVisibleXIndex: Int
+	public override var highestVisibleXIndex: Int
+	public var barData: BarChartData? { return _data as? BarChartData }
+ChartHighlight.swift
+	public class ChartHighlight: NSObject
+	func ==(lhs: ChartHighlight, rhs: ChartHighlight) -> Bool
+ChartAnimator.swift
+	public protocol ChartAnimatorDelegate
+	public class ChartAnimator: NSObject
+LineRadarChartDataSet.swift
+	public class LineRadarChartDataSet: LineScatterCandleChartDataSet
+RadarChartView.swift
+	internal var _yAxisRenderer: ChartYAxisRendererRadarChart!
+	internal var _xAxisRenderer: ChartXAxisRendererRadarChart!
+	public override init(frame: CGRect)
+	public required init?(coder aDecoder: NSCoder)
+	internal override func initialize()
+	internal override func calcMinMax()
+	public override func getMarkerPosition(entry entry: ChartDataEntry, highlight: ChartHighlight) -> CGPoint
+	public override func notifyDataSetChanged()
+	public override func drawRect(rect: CGRect)
+	public override func indexForAngle(angle: CGFloat) -> Int
+	internal override var requiredLegendOffset: CGFloat
+	internal override var requiredBaseOffset: CGFloat
+	public override var radius: CGFloat
+ChartColorTemplates.swift
+	public class ChartColorTemplates: NSObject
+ScatterChartRenderer.swift
+	public class ScatterChartRenderer: LineScatterCandleRadarChartRenderer
+PieChartDataSet.swift
+	public class PieChartDataSet: ChartDataSet
+ScatterChartView.swift
+	public override func initialize()
+	public override func calcMinMax()
+	public var scatterData: ScatterChartData? { return _data as? ScatterChartData }
+BubbleChartRenderer.swift
+	public class BubbleChartRenderer: ChartDataRendererBase
+BubbleChartView.swift
+	public class BubbleChartView: BarLineChartViewBase, BubbleChartDataProvider
+ChartXAxisRendererRadarChart.swift
+	public class ChartXAxisRendererRadarChart: ChartXAxisRenderer
+RadarChartDataSet.swift
+	public class RadarChartDataSet: LineRadarChartDataSet
+ChartXAxis.swift
+	public class ChartXAxis: ChartAxisBase
+BubbleChartDataEntry.swift
+	public class BubbleChartDataEntry: ChartDataEntry
+CombinedHighlighter.swift
+	internal class CombinedHighlighter: ChartHighlighter
+LineScatterCandleRadarChartRenderer.swift
+	public class LineScatterCandleRadarChartRenderer: ChartDataRendererBase
+ChartViewPortHandler.swift
+	public override init()
+	public func setChartDimens(width width: CGFloat, height: CGFloat)
+	public var hasChartDimens: Bool
+	public func restrainViewPort(offsetLeft offsetLeft: CGFloat, offsetTop: CGFloat, offsetRight: CGFloat, offsetBottom: CGFloat)
+	public var offsetLeft: CGFloat
+	public var offsetRight: CGFloat
+	public var offsetTop: CGFloat
+	public var offsetBottom: CGFloat
+	public var contentTop: CGFloat
+	public var contentLeft: CGFloat
+	public var contentRight: CGFloat
+	public var contentBottom: CGFloat
+	public var contentWidth: CGFloat
+	public var contentHeight: CGFloat
+	public var contentRect: CGRect { return _contentRect; }
+	public var contentCenter: CGPoint
+	public var chartHeight: CGFloat { return _chartHeight; }
+	public var chartWidth: CGFloat { return _chartWidth; }
+	public var touchMatrix: CGAffineTransform
+	public func isInBoundsX(x: CGFloat) -> Bool
+	public func isInBoundsY(y: CGFloat) -> Bool
+	public func isInBounds(x x: CGFloat, y: CGFloat) -> Bool
+	public func isInBoundsLeft(x: CGFloat) -> Bool
+	public func isInBoundsRight(x: CGFloat) -> Bool
+	public func isInBoundsTop(y: CGFloat) -> Bool
+	public func isInBoundsBottom(y: CGFloat) -> Bool
+PDFViewController.swift
+	@IBOutlet weak var pdfWebView: UIWebView!
+	var pdfFileName:String?
+	var titleText: String?
+	override func viewDidLoad()
+	override func didReceiveMemoryWarning()
+	override func preferredStatusBarStyle() -> UIStatusBarStyle
+ChartDataProvider.swift
+	public protocol ChartDataProvider
+BarLineChartViewBase.swift
+	public var borderColor = UIColor.blackColor()
+	public var borderLineWidth: CGFloat = 1.0
+	internal var _rightAxis: ChartYAxis!
+	internal var _leftYAxisRenderer: ChartYAxisRenderer!
+	internal var _rightYAxisRenderer: ChartYAxisRenderer!
+	internal var _leftAxisTransformer: ChartTransformer!
+	internal var _rightAxisTransformer: ChartTransformer!
+	internal var _xAxisRenderer: ChartXAxisRenderer!
+	internal var _tapGestureRecognizer: UITapGestureRecognizer!
+	internal var _doubleTapGestureRecognizer: UITapGestureRecognizer!
+	internal var _pinchGestureRecognizer: UIPinchGestureRecognizer!
+	internal var _panGestureRecognizer: UIPanGestureRecognizer!
+	public override init(frame: CGRect)
+	public required init?(coder aDecoder: NSCoder)
+	deinit
+	internal override func initialize()
+	public override func drawRect(rect: CGRect)
+	internal func prepareValuePxMatrix()
+	internal func prepareOffsetMatrix()
+	public override func notifyDataSetChanged()
+	internal override func calcMinMax()
+	internal override func calculateOffsets()
+	public override func getMarkerPosition(entry e: ChartDataEntry, highlight: ChartHighlight) -> CGPoint
+	public func stopDeceleration()
+	public override func gestureRecognizerShouldBegin(gestureRecognizer: UIGestureRecognizer) -> Bool
+	public func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWithGestureRecognizer otherGestureRecognizer: UIGestureRecognizer) -> Bool
+	public var scaleXEnabled: Bool
+	public var scaleYEnabled: Bool
+	public var isScaleXEnabled: Bool { return scaleXEnabled; }
+	public var isScaleYEnabled: Bool { return scaleYEnabled; }
+	public override var chartYMax: Double
+	public override var chartYMin: Double
+	public func isInverted(axis: ChartYAxis.AxisDependency) -> Bool
+	internal override init()
+	internal func getFillLinePosition(dataSet dataSet: LineChartDataSet, dataProvider: LineChartDataProvider) -> CGFloat
+CombinedChartView.swift
+	case Bar
+	case Bubble
+	case Line
+	case Candle
+	case Scatter
+	public override func initialize()
+	override func calcMinMax()
+	public override var data: ChartData?
+	public var fillFormatter: ChartFillFormatter
+	public var lineData: LineChartData?
+	public var barData: BarChartData?
+	public var scatterData: ScatterChartData?
+	public var candleData: CandleChartData?
+	public var bubbleData: BubbleChartData?
+Logger+CoreDataProperties.swift
+	@NSManaged var treatmentDuration: NSNumber?
+	@NSManaged var painLevel: NSNumber?
+	@NSManaged var dateTime: NSDate?
+	@NSManaged var id: NSNumber?
+	@NSManaged var types: String?
+ElectronicManual.swift
+	override func viewDidLoad()
+	override func didReceiveMemoryWarning()
+	@IBAction func deviceMSelected(sender: AnyObject)
+	@IBAction func deviceAIDSelected(sender: AnyObject)
+HumanBodyViewController.swift
+	override func viewDidLoad()
+	override func didReceiveMemoryWarning()
+	@IBAction func partSelected(sender: AnyObject)
+	func instantiateBodyDetailViewController() -> BodyPartsDetailViewController
+CandleStickChartRenderer.swift
+	public class CandleStickChartRenderer: LineScatterCandleRadarChartRenderer
+CombinedChartRenderer.swift
+	public class CombinedChartRenderer: ChartDataRendererBase
+ChartLegend.swift
+	public class ChartLegend: ChartComponentBase
+ChartDataBaseFilter.swift
+	public class ChartDataBaseFilter: NSObject
+BarChartDataProvider.swift
+	public protocol BarChartDataProvider: BarLineScatterCandleBubbleChartDataProvider
+CandleChartDataProvider.swift
+	public protocol CandleChartDataProvider: BarLineScatterCandleBubbleChartDataProvider
+ChartAnimationEasing.swift
+	public enum ChartEasingOption: Int
+	internal func easingFunctionFromOption(easing: ChartEasingOption) -> ChartEasingFunctionBlock
+	internal struct EasingFunctions
+PieChartRenderer.swift
+	public class PieChartRenderer: ChartDataRendererBase
+ChartXAxisRenderer.swift
+	public class ChartXAxisRenderer: ChartAxisRendererBase
+BubbleChartDataSet.swift
+	public class BubbleChartDataSet: BarLineScatterCandleBubbleChartDataSet
+ChartComponentBase.swift
+	public override init()
+	public var isEnabled: Bool { return enabled; }
+ChartUtils.swift
+	public class ChartUtils
+BubbleChartDataProvider.swift
+	public protocol BubbleChartDataProvider: BarLineScatterCandleBubbleChartDataProvider
+ChartYAxis.swift
+	public enum YAxisLabelPosition: Int
+	case Left
+	case Right
+	public var entries = [Double]()
+	public var entryCount: Int { return entries.count; }
+	public var axisMaximum = Double(0)
+	public var axisMinimum = Double(0)
+	public override init()
+	public init(position: AxisDependency)
+	public var axisDependency: AxisDependency
+	public func setLabelCount(count: Int, force: Bool)
+	public func requiredSize() -> CGSize
+	public func getRequiredHeightSpace() -> CGFloat
+	public override func getLongestLabel() -> String
+	public var isInverted: Bool { return inverted; }
+	public var isStartAtZeroEnabled: Bool { return startAtZeroEnabled; }
+	public var isShowOnlyMinMaxEnabled: Bool { return showOnlyMinMaxEnabled; }
+	public var isDrawTopYLabelEntryEnabled: Bool { return drawTopYLabelEntryEnabled; }
+EPHistoryTableView.swift
+	@IBOutlet weak var historyTable: UITableView!
+	var dataSource: [Logger]?
+	class func initWithNib()-> AnyObject?
+	func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath)
+	func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+	func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+	func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool
+	func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath)
+DeviceDetailViewController.swift
+	case DeviceM
+	case DeviceAID
+	enum Heights:CGFloat
+	class DeviceDetailViewController: UIViewController,UITableViewDataSource, UITableViewDelegate
+EPHistoryTableViewCell.swift
+	@IBOutlet weak var painLevelValue: UILabel!
+	@IBOutlet weak var treatmentDurationValue: UILabel!
+	@IBOutlet weak var dateTimeValue: UILabel!
+	@IBOutlet weak var typeValue: UILabel!
+ChartDataEntry.swift
+	public class ChartDataEntry: NSObject
+	public func ==(lhs: ChartDataEntry, rhs: ChartDataEntry) -> Bool
+BarChartRenderer.swift
+	public class BarChartRenderer: ChartDataRendererBase
+BarLineScatterCandleBubbleChartDataProvider.swift
+	public protocol BarLineScatterCandleBubbleChartDataProvider: ChartDataProvider
+ChartYAxisRendererHorizontalBarChart.swift
+	public class ChartYAxisRendererHorizontalBarChart: ChartYAxisRenderer
+HorizontalBarChartRenderer.swift
+	public class HorizontalBarChartRenderer: BarChartRenderer
+CandleChartDataEntry.swift
+	public class CandleChartDataEntry: ChartDataEntry
+ChartXAxisRendererBarChart.swift
+	public class ChartXAxisRendererBarChart: ChartXAxisRenderer
+ChartAxisBase.swift
+	public class ChartAxisBase: ChartComponentBase

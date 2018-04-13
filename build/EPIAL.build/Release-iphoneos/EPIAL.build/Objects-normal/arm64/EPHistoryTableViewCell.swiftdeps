@@ -1,0 +1,181 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EPHistoryTableViewCell"
+provides-nominal:
+- "C5EPIAL22EPHistoryTableViewCell"
+provides-member:
+- ["C5EPIAL22EPHistoryTableViewCell", ""]
+provides-dynamic-lookup:
+- "dateTimeValue"
+- "typeValue"
+- "treatmentDurationValue"
+- "painLevelValue"
+depends-top-level:
+- "EPHistoryTableViewCell"
+- "UITableViewCell"
+- "UILabel"
+depends-member:
+- ["PSs9AnyObject", "dateTimeValue"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "painLevelValue"]
+- ["PSs9AnyObject", "treatmentDurationValue"]
+- ["PSs9AnyObject", "typeValue"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "dateTimeValue"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "painLevelValue"]
+- ["PSs11CVarArgType", "treatmentDurationValue"]
+- ["PSs11CVarArgType", "typeValue"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "dateTimeValue"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "painLevelValue"]
+- ["PSs23CustomStringConvertible", "treatmentDurationValue"]
+- ["PSs23CustomStringConvertible", "typeValue"]
+- ["PSs23CustomStringConvertible", ""]
+- ["C5EPIAL22EPHistoryTableViewCell", "UILabel"]
+- ["C5EPIAL22EPHistoryTableViewCell", "dateTimeValue"]
+- ["C5EPIAL22EPHistoryTableViewCell", "deinit"]
+- ["C5EPIAL22EPHistoryTableViewCell", "init"]
+- ["C5EPIAL22EPHistoryTableViewCell", "painLevelValue"]
+- ["C5EPIAL22EPHistoryTableViewCell", "treatmentDurationValue"]
+- ["C5EPIAL22EPHistoryTableViewCell", "typeValue"]
+- ["PSs9Equatable", "dateTimeValue"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "painLevelValue"]
+- ["PSs9Equatable", "treatmentDurationValue"]
+- ["PSs9Equatable", "typeValue"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "dateTimeValue"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "painLevelValue"]
+- ["PSs8Hashable", "treatmentDurationValue"]
+- ["PSs8Hashable", "typeValue"]
+- ["PSs8Hashable", ""]
+- ["PSo8NSCoding", "dateTimeValue"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "painLevelValue"]
+- ["PSo8NSCoding", "treatmentDurationValue"]
+- ["PSo8NSCoding", "typeValue"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "dateTimeValue"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "painLevelValue"]
+- ["CSo8NSObject", "treatmentDurationValue"]
+- ["CSo8NSObject", "typeValue"]
+- ["PSo16NSObjectProtocol", "dateTimeValue"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "painLevelValue"]
+- ["PSo16NSObjectProtocol", "treatmentDurationValue"]
+- ["PSo16NSObjectProtocol", "typeValue"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "dateTimeValue"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "painLevelValue"]
+- ["PSo29UIAccessibilityIdentification", "treatmentDurationValue"]
+- ["PSo29UIAccessibilityIdentification", "typeValue"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "dateTimeValue"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "painLevelValue"]
+- ["PSo12UIAppearance", "treatmentDurationValue"]
+- ["PSo12UIAppearance", "typeValue"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "dateTimeValue"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "painLevelValue"]
+- ["PSo21UIAppearanceContainer", "treatmentDurationValue"]
+- ["PSo21UIAppearanceContainer", "typeValue"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "dateTimeValue"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "painLevelValue"]
+- ["PSo17UICoordinateSpace", "treatmentDurationValue"]
+- ["PSo17UICoordinateSpace", "typeValue"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "dateTimeValue"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "painLevelValue"]
+- ["PSo13UIDynamicItem", "treatmentDurationValue"]
+- ["PSo13UIDynamicItem", "typeValue"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "dateTimeValue"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "painLevelValue"]
+- ["PSo18UIFocusEnvironment", "treatmentDurationValue"]
+- ["PSo18UIFocusEnvironment", "typeValue"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "dateTimeValue"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "painLevelValue"]
+- ["PSo27UIGestureRecognizerDelegate", "treatmentDurationValue"]
+- ["PSo27UIGestureRecognizerDelegate", "typeValue"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "dateTimeValue"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "painLevelValue"]
+- ["CSo11UIResponder", "treatmentDurationValue"]
+- ["CSo11UIResponder", "typeValue"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "dateTimeValue"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "painLevelValue"]
+- ["CSo15UITableViewCell", "treatmentDurationValue"]
+- ["CSo15UITableViewCell", "typeValue"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "dateTimeValue"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "painLevelValue"]
+- ["PSo18UITraitEnvironment", "treatmentDurationValue"]
+- ["PSo18UITraitEnvironment", "typeValue"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "dateTimeValue"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "painLevelValue"]
+- ["CSo6UIView", "treatmentDurationValue"]
+- ["CSo6UIView", "typeValue"]
+- ["PSs12_Reflectable", "dateTimeValue"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "painLevelValue"]
+- ["PSs12_Reflectable", "treatmentDurationValue"]
+- ["PSs12_Reflectable", "typeValue"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "C5EPIAL22EPHistoryTableViewCell"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL-Bridging-Header.h"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL/PunchScrollView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+interface-hash: "6839d672bc633691565c72b9e9e2f9d6"

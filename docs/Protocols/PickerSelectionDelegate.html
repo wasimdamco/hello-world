@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PickerSelectionDelegate Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/PickerSelectionDelegate" class="dashAnchor"></a>
+    <a title="PickerSelectionDelegate Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (42% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        PickerSelectionDelegate Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BarChartView.html">BarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL25BarLineChartFillFormatter">BarLineChartFillFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BarLineChartViewBase.html">BarLineChartViewBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL19BodyPartsDetailView">BodyPartsDetailView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL29BodyPartsDetailViewController">BodyPartsDetailViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL20CandleStickChartView">CandleStickChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartComponentBase.html">ChartComponentBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL31ChartDefaultXAxisValueFormatter">ChartDefaultXAxisValueFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartLimitLine.html">ChartLimitLine</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartTransformer.html">ChartTransformer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartViewPortHandler.html">ChartViewPortHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartYAxis.html">ChartYAxis</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CombinedChartView.html">CombinedChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPDatePickerView.html">EPDatePickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPHistoryTableView.html">EPHistoryTableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22EPHistoryTableViewCell">EPHistoryTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22EPNavigationController">EPNavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPPickerView.html">EPPickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL16ElectronicManual">ElectronicManual</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GraphViewController.html">GraphViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22HorizontalBarChartView">HorizontalBarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL23HumanBodyViewController">HumanBodyViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL13LineChartData">LineChartData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL13LineChartView">LineChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Logger.html">Logger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoggerViewController.html">LoggerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PDFViewController.html">PDFViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PieChartView.html">PieChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PieRadarChartViewBase.html">PieRadarChartViewBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RadarChartView.html">RadarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL16ScatterChartView">ScatterChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL17TabViewController">TabViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:O5EPIAL10DeviceType">DeviceType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ChartFillFormatter.html">ChartFillFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChartXAxisValueFormatter.html">ChartXAxisValueFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DatePickerSelectionDelegate.html">DatePickerSelectionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PickerSelectionDelegate.html">PickerSelectionDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL16DeviceAIDDetails">DeviceAIDDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL14DeviceMDetails">DeviceMDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL19EPDeviceInformation">EPDeviceInformation</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>PickerSelectionDelegate</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">PickerSelectionDelegate</span></code></pre>
+
+                </div>
+              </div>
+            <p>protocol: PickerSelectionDelegate : the protocol function to notify back the class or
+model or controller who implements and sets PickerSelectionDelegate to self about what is selected from picker.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FP5EPIAL23PickerSelectionDelegate21didFinishSelectingRowuRq_S0__Fq_FTSi10dataSourceGSaSS_5inputOS_9InputType_T_"></a>
+                    <a name="//apple_ref/swift/Method/didFinishSelectingRow(_:dataSource:input:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FP5EPIAL23PickerSelectionDelegate21didFinishSelectingRowuRq_S0__Fq_FTSi10dataSourceGSaSS_5inputOS_9InputType_T_">didFinishSelectingRow(_:dataSource:input:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Delegate function to send information back to the implementor controller.
+:parameter: row: Int value for selected row index
+:parameter: dataSource: String array set from which the value has been selected.
+:parameter: input: InputType enum value to know the type from pain, treatment etc.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">didFinishSelectingRow</span><span class="p">(</span><span class="nv">row</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">dataSource</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">],</span> <span class="nv">input</span><span class="p">:</span> <span class="kt">InputType</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external">Akhil</a>. All rights reserved. (Last updated: 2016-02-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.5.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

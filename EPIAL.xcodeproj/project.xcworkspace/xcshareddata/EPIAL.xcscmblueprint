@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AC7EFFF376F4378CCEF3C67126F222E43C7A9EF3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AC7EFFF376F4378CCEF3C67126F222E43C7A9EF3" : 0,
+    "15BD10DAEC34F3E915D176F96CB2B60F19A845A8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D8C0A950-0D6F-427D-913F-674CD792F7A0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AC7EFFF376F4378CCEF3C67126F222E43C7A9EF3" : "EPIL\/",
+    "15BD10DAEC34F3E915D176F96CB2B60F19A845A8" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EPIAL",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EPIAL.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/mohitg2\/trackle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "15BD10DAEC34F3E915D176F96CB2B60F19A845A8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/epil_damco\/epil.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AC7EFFF376F4378CCEF3C67126F222E43C7A9EF3"
+    }
+  ]
+}

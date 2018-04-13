@@ -1,0 +1,375 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HumanBodyViewController"
+provides-nominal:
+- "C5EPIAL23HumanBodyViewController"
+provides-member:
+- ["C5EPIAL23HumanBodyViewController", ""]
+provides-dynamic-lookup:
+- "partSelected"
+- "instantiateBodyDetailViewController"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+depends-top-level:
+- "AnyObject"
+- !private "StringLiteralType"
+- "HumanBodyViewController"
+- !private "UIButton"
+- !private "UIStoryboard"
+- !private "BooleanLiteralType"
+- "UIViewController"
+- "BodyPartsDetailViewController"
+depends-member:
+- !private ["PSs9AnyObject", "UIStoryboard"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "edgesForExtendedLayout"]
+- !private ["PSs9AnyObject", "extendedLayoutIncludesOpaqueBars"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "instantiateBodyDetailViewController"]
+- !private ["PSs9AnyObject", "instantiateViewControllerWithIdentifier"]
+- !private ["PSs9AnyObject", "navigationController"]
+- !private ["PSs9AnyObject", "navigationItem"]
+- ["PSs9AnyObject", "partSelected"]
+- !private ["PSs9AnyObject", "pushViewController"]
+- !private ["PSs9AnyObject", "selectedBodyPart"]
+- !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "title"]
+- !private ["PSs9AnyObject", "titleLabel"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs23ArrayLiteralConvertible", "None"]
+- !private ["C5EPIAL29BodyPartsDetailViewController", "selectedBodyPart"]
+- !private ["PSs11CVarArgType", "UIStoryboard"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "edgesForExtendedLayout"]
+- !private ["PSs11CVarArgType", "extendedLayoutIncludesOpaqueBars"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "instantiateBodyDetailViewController"]
+- !private ["PSs11CVarArgType", "instantiateViewControllerWithIdentifier"]
+- !private ["PSs11CVarArgType", "navigationController"]
+- !private ["PSs11CVarArgType", "navigationItem"]
+- ["PSs11CVarArgType", "partSelected"]
+- !private ["PSs11CVarArgType", "pushViewController"]
+- !private ["PSs11CVarArgType", "selectedBodyPart"]
+- !private ["PSs11CVarArgType", "text"]
+- !private ["PSs11CVarArgType", "title"]
+- !private ["PSs11CVarArgType", "titleLabel"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "UIStoryboard"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "edgesForExtendedLayout"]
+- !private ["PSs23CustomStringConvertible", "extendedLayoutIncludesOpaqueBars"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "instantiateBodyDetailViewController"]
+- !private ["PSs23CustomStringConvertible", "instantiateViewControllerWithIdentifier"]
+- !private ["PSs23CustomStringConvertible", "navigationController"]
+- !private ["PSs23CustomStringConvertible", "navigationItem"]
+- ["PSs23CustomStringConvertible", "partSelected"]
+- !private ["PSs23CustomStringConvertible", "pushViewController"]
+- !private ["PSs23CustomStringConvertible", "selectedBodyPart"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- !private ["PSs23CustomStringConvertible", "title"]
+- !private ["PSs23CustomStringConvertible", "titleLabel"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "None"]
+- !private ["PSs9Equatable", "UIStoryboard"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "edgesForExtendedLayout"]
+- !private ["PSs9Equatable", "extendedLayoutIncludesOpaqueBars"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "instantiateBodyDetailViewController"]
+- !private ["PSs9Equatable", "instantiateViewControllerWithIdentifier"]
+- !private ["PSs9Equatable", "navigationController"]
+- !private ["PSs9Equatable", "navigationItem"]
+- ["PSs9Equatable", "partSelected"]
+- !private ["PSs9Equatable", "pushViewController"]
+- !private ["PSs9Equatable", "selectedBodyPart"]
+- !private ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "title"]
+- !private ["PSs9Equatable", "titleLabel"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "UIStoryboard"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "edgesForExtendedLayout"]
+- !private ["PSs8Hashable", "extendedLayoutIncludesOpaqueBars"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "instantiateBodyDetailViewController"]
+- !private ["PSs8Hashable", "instantiateViewControllerWithIdentifier"]
+- !private ["PSs8Hashable", "navigationController"]
+- !private ["PSs8Hashable", "navigationItem"]
+- ["PSs8Hashable", "partSelected"]
+- !private ["PSs8Hashable", "pushViewController"]
+- !private ["PSs8Hashable", "selectedBodyPart"]
+- !private ["PSs8Hashable", "text"]
+- !private ["PSs8Hashable", "title"]
+- !private ["PSs8Hashable", "titleLabel"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- ["C5EPIAL23HumanBodyViewController", "AnyObject"]
+- ["C5EPIAL23HumanBodyViewController", "BodyPartsDetailViewController"]
+- !private ["C5EPIAL23HumanBodyViewController", "UIButton"]
+- !private ["C5EPIAL23HumanBodyViewController", "UIStoryboard"]
+- ["C5EPIAL23HumanBodyViewController", "deinit"]
+- ["C5EPIAL23HumanBodyViewController", "didReceiveMemoryWarning"]
+- !private ["C5EPIAL23HumanBodyViewController", "edgesForExtendedLayout"]
+- !private ["C5EPIAL23HumanBodyViewController", "extendedLayoutIncludesOpaqueBars"]
+- ["C5EPIAL23HumanBodyViewController", "init"]
+- ["C5EPIAL23HumanBodyViewController", "instantiateBodyDetailViewController"]
+- !private ["C5EPIAL23HumanBodyViewController", "navigationController"]
+- !private ["C5EPIAL23HumanBodyViewController", "navigationItem"]
+- ["C5EPIAL23HumanBodyViewController", "partSelected"]
+- ["C5EPIAL23HumanBodyViewController", "viewDidLoad"]
+- !private ["PSo8NSCoding", "UIStoryboard"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "edgesForExtendedLayout"]
+- !private ["PSo8NSCoding", "extendedLayoutIncludesOpaqueBars"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "instantiateBodyDetailViewController"]
+- !private ["PSo8NSCoding", "navigationController"]
+- !private ["PSo8NSCoding", "navigationItem"]
+- ["PSo8NSCoding", "partSelected"]
+- !private ["PSo8NSCoding", "pushViewController"]
+- !private ["PSo8NSCoding", "selectedBodyPart"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "title"]
+- !private ["PSo8NSCoding", "titleLabel"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "UIStoryboard"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "edgesForExtendedLayout"]
+- !private ["PSo26NSExtensionRequestHandling", "extendedLayoutIncludesOpaqueBars"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "instantiateBodyDetailViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
+- ["PSo26NSExtensionRequestHandling", "partSelected"]
+- !private ["PSo26NSExtensionRequestHandling", "pushViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "selectedBodyPart"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "BodyPartsDetailViewController"]
+- !private ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "UIStoryboard"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "edgesForExtendedLayout"]
+- !private ["CSo8NSObject", "extendedLayoutIncludesOpaqueBars"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "instantiateBodyDetailViewController"]
+- !private ["CSo8NSObject", "instantiateViewControllerWithIdentifier"]
+- !private ["CSo8NSObject", "navigationController"]
+- !private ["CSo8NSObject", "navigationItem"]
+- ["CSo8NSObject", "partSelected"]
+- !private ["CSo8NSObject", "pushViewController"]
+- !private ["CSo8NSObject", "selectedBodyPart"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "title"]
+- !private ["CSo8NSObject", "titleLabel"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "UIStoryboard"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "edgesForExtendedLayout"]
+- !private ["PSo16NSObjectProtocol", "extendedLayoutIncludesOpaqueBars"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "instantiateBodyDetailViewController"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewControllerWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- !private ["PSo16NSObjectProtocol", "navigationItem"]
+- ["PSo16NSObjectProtocol", "partSelected"]
+- !private ["PSo16NSObjectProtocol", "pushViewController"]
+- !private ["PSo16NSObjectProtocol", "selectedBodyPart"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- !private ["PSo16NSObjectProtocol", "titleLabel"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSs13OptionSetType", "None"]
+- !private ["Sq", "deinit"]
+- !private ["PSo25PunchScrollViewDataSource", "selectedBodyPart"]
+- !private ["PSo23PunchScrollViewDelegate", "selectedBodyPart"]
+- !private ["PSs16RawRepresentable", "None"]
+- !private ["PSs14SetAlgebraType", "None"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "titleLabel"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo12UIAppearance", "titleLabel"]
+- !private ["PSo21UIAppearanceContainer", "UIStoryboard"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "edgesForExtendedLayout"]
+- !private ["PSo21UIAppearanceContainer", "extendedLayoutIncludesOpaqueBars"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "instantiateBodyDetailViewController"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- !private ["PSo21UIAppearanceContainer", "navigationItem"]
+- ["PSo21UIAppearanceContainer", "partSelected"]
+- !private ["PSo21UIAppearanceContainer", "pushViewController"]
+- !private ["PSo21UIAppearanceContainer", "selectedBodyPart"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "titleLabel"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "titleLabel"]
+- !private ["PSo18UIContentContainer", "UIStoryboard"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "edgesForExtendedLayout"]
+- !private ["PSo18UIContentContainer", "extendedLayoutIncludesOpaqueBars"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "instantiateBodyDetailViewController"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- !private ["PSo18UIContentContainer", "navigationItem"]
+- ["PSo18UIContentContainer", "partSelected"]
+- !private ["PSo18UIContentContainer", "pushViewController"]
+- !private ["PSo18UIContentContainer", "selectedBodyPart"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "titleLabel"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo17UICoordinateSpace", "titleLabel"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo13UIDynamicItem", "titleLabel"]
+- !private ["PSo18UIFocusEnvironment", "UIStoryboard"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "edgesForExtendedLayout"]
+- !private ["PSo18UIFocusEnvironment", "extendedLayoutIncludesOpaqueBars"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "instantiateBodyDetailViewController"]
+- !private ["PSo18UIFocusEnvironment", "navigationController"]
+- !private ["PSo18UIFocusEnvironment", "navigationItem"]
+- ["PSo18UIFocusEnvironment", "partSelected"]
+- !private ["PSo18UIFocusEnvironment", "pushViewController"]
+- !private ["PSo18UIFocusEnvironment", "selectedBodyPart"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "titleLabel"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo22UINavigationController", "pushViewController"]
+- !private ["CSo16UINavigationItem", "title"]
+- !private ["VSC10UIRectEdge", "None"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "BodyPartsDetailViewController"]
+- !private ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "UIStoryboard"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "edgesForExtendedLayout"]
+- !private ["CSo11UIResponder", "extendedLayoutIncludesOpaqueBars"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "instantiateBodyDetailViewController"]
+- !private ["CSo11UIResponder", "navigationController"]
+- !private ["CSo11UIResponder", "navigationItem"]
+- ["CSo11UIResponder", "partSelected"]
+- !private ["CSo11UIResponder", "pushViewController"]
+- !private ["CSo11UIResponder", "selectedBodyPart"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "titleLabel"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo20UIScrollViewDelegate", "selectedBodyPart"]
+- !private ["PSo16UIStateRestoring", "UIStoryboard"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "edgesForExtendedLayout"]
+- !private ["PSo16UIStateRestoring", "extendedLayoutIncludesOpaqueBars"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "instantiateBodyDetailViewController"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- !private ["PSo16UIStateRestoring", "navigationItem"]
+- ["PSo16UIStateRestoring", "partSelected"]
+- !private ["PSo16UIStateRestoring", "pushViewController"]
+- !private ["PSo16UIStateRestoring", "selectedBodyPart"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo12UIStoryboard", "init"]
+- !private ["CSo12UIStoryboard", "instantiateViewControllerWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "UIStoryboard"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "edgesForExtendedLayout"]
+- !private ["PSo18UITraitEnvironment", "extendedLayoutIncludesOpaqueBars"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "instantiateBodyDetailViewController"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- !private ["PSo18UITraitEnvironment", "navigationItem"]
+- ["PSo18UITraitEnvironment", "partSelected"]
+- !private ["PSo18UITraitEnvironment", "pushViewController"]
+- !private ["PSo18UITraitEnvironment", "selectedBodyPart"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "titleLabel"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo6UIView", "titleLabel"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "BodyPartsDetailViewController"]
+- !private ["CSo16UIViewController", "UIButton"]
+- !private ["CSo16UIViewController", "UIStoryboard"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "edgesForExtendedLayout"]
+- !private ["CSo16UIViewController", "extendedLayoutIncludesOpaqueBars"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "instantiateBodyDetailViewController"]
+- !private ["CSo16UIViewController", "navigationController"]
+- !private ["CSo16UIViewController", "navigationItem"]
+- ["CSo16UIViewController", "partSelected"]
+- !private ["CSo16UIViewController", "pushViewController"]
+- !private ["CSo16UIViewController", "selectedBodyPart"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs12_Reflectable", "titleLabel"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "C5EPIAL29BodyPartsDetailViewController"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C5EPIAL23HumanBodyViewController"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSs13OptionSetType"
+- !private "Sq"
+- !private "PSo25PunchScrollViewDataSource"
+- !private "PSo23PunchScrollViewDelegate"
+- !private "PSs16RawRepresentable"
+- !private "PSs14SetAlgebraType"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UILabel"
+- !private "CSo22UINavigationController"
+- !private "CSo16UINavigationItem"
+- !private "VSC10UIRectEdge"
+- "CSo11UIResponder"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL-Bridging-Header.h"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL/PunchScrollView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+interface-hash: "de4043a7d99b8b0d8570e9834fee8e59"

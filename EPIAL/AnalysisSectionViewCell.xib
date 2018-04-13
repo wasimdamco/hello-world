@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="17B48" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ProximaNova-Bold_0.ttf">
+            <string>ProximaNova-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnalysisSectionViewCell" rowHeight="31" id="Nc0-b0-IsG" customClass="AnalysisSectionViewCell" customModule="EPIAL" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="31"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Nc0-b0-IsG" id="c5K-ai-qrx">
+                <frame key="frameInset" width="320" height="30"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Depression" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A46-ct-d6X">
+                        <color key="backgroundColor" red="0.49563109869999999" green="0.57657474279999998" blue="0.58946293589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="A46-ct-d6X" secondAttribute="trailing" id="4Ha-Od-t2S"/>
+                    <constraint firstItem="A46-ct-d6X" firstAttribute="top" secondItem="c5K-ai-qrx" secondAttribute="top" id="IBa-K8-f7Y"/>
+                    <constraint firstItem="A46-ct-d6X" firstAttribute="leading" secondItem="c5K-ai-qrx" secondAttribute="leading" id="l5l-Mb-Ip6"/>
+                    <constraint firstAttribute="bottom" secondItem="A46-ct-d6X" secondAttribute="bottom" id="mYi-kB-GCg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="titleLabel" destination="A46-ct-d6X" id="EDl-r6-oLw"/>
+            </connections>
+            <point key="canvasLocation" x="-210" y="18"/>
+        </tableViewCell>
+    </objects>
+</document>

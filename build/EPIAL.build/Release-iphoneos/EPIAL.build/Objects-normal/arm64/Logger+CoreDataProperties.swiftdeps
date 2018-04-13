@@ -1,0 +1,100 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C5EPIAL6Logger", ""]
+- ["C5EPIAL6Logger", "treatmentDuration"]
+- ["C5EPIAL6Logger", "painLevel"]
+- ["C5EPIAL6Logger", "dateTime"]
+- ["C5EPIAL6Logger", "id"]
+- ["C5EPIAL6Logger", "types"]
+provides-dynamic-lookup:
+- "painLevel"
+- "types"
+- "treatmentDuration"
+- "dateTime"
+- "id"
+depends-top-level:
+- "String"
+- "NSNumber"
+- "Logger"
+- "NSDate"
+depends-member:
+- ["PSs9AnyObject", "dateTime"]
+- ["PSs9AnyObject", "id"]
+- ["PSs9AnyObject", "painLevel"]
+- ["PSs9AnyObject", "treatmentDuration"]
+- ["PSs9AnyObject", "types"]
+- ["PSs11CVarArgType", "dateTime"]
+- ["PSs11CVarArgType", "id"]
+- ["PSs11CVarArgType", "painLevel"]
+- ["PSs11CVarArgType", "treatmentDuration"]
+- ["PSs11CVarArgType", "types"]
+- ["PSs23CustomStringConvertible", "dateTime"]
+- ["PSs23CustomStringConvertible", "id"]
+- ["PSs23CustomStringConvertible", "painLevel"]
+- ["PSs23CustomStringConvertible", "treatmentDuration"]
+- ["PSs23CustomStringConvertible", "types"]
+- ["PSs9Equatable", "dateTime"]
+- ["PSs9Equatable", "id"]
+- ["PSs9Equatable", "painLevel"]
+- ["PSs9Equatable", "treatmentDuration"]
+- ["PSs9Equatable", "types"]
+- ["PSs8Hashable", "dateTime"]
+- ["PSs8Hashable", "id"]
+- ["PSs8Hashable", "painLevel"]
+- ["PSs8Hashable", "treatmentDuration"]
+- ["PSs8Hashable", "types"]
+- ["C5EPIAL6Logger", "NSDate"]
+- ["C5EPIAL6Logger", "NSNumber"]
+- ["C5EPIAL6Logger", "String"]
+- ["C5EPIAL6Logger", "dateTime"]
+- ["C5EPIAL6Logger", "id"]
+- ["C5EPIAL6Logger", "painLevel"]
+- ["C5EPIAL6Logger", "treatmentDuration"]
+- ["C5EPIAL6Logger", "types"]
+- ["CSo15NSManagedObject", "NSDate"]
+- ["CSo15NSManagedObject", "NSNumber"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "dateTime"]
+- ["CSo15NSManagedObject", "id"]
+- ["CSo15NSManagedObject", "painLevel"]
+- ["CSo15NSManagedObject", "treatmentDuration"]
+- ["CSo15NSManagedObject", "types"]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "NSNumber"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "dateTime"]
+- ["CSo8NSObject", "id"]
+- ["CSo8NSObject", "painLevel"]
+- ["CSo8NSObject", "treatmentDuration"]
+- ["CSo8NSObject", "types"]
+- ["PSo16NSObjectProtocol", "dateTime"]
+- ["PSo16NSObjectProtocol", "id"]
+- ["PSo16NSObjectProtocol", "painLevel"]
+- ["PSo16NSObjectProtocol", "treatmentDuration"]
+- ["PSo16NSObjectProtocol", "types"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C5EPIAL6Logger"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL-Bridging-Header.h"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL/PunchScrollView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+interface-hash: "6f85a828902e9180200a5bde438fb07c"

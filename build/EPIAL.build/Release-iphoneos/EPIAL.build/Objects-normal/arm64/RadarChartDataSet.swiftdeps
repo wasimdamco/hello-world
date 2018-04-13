@@ -1,0 +1,111 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RadarChartDataSet"
+provides-nominal:
+- "C5EPIAL17RadarChartDataSet"
+provides-member:
+- ["C5EPIAL17RadarChartDataSet", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ChartDataEntry"
+- !private "UIFont"
+- "LineRadarChartDataSet"
+- "String"
+- "RadarChartDataSet"
+depends-member:
+- !private ["PSs9AnyObject", "UIFont"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "systemFontOfSize"]
+- !private ["PSs9AnyObject", "valueFont"]
+- ["PSs9AnyObject", ""]
+- ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "ChartDataEntry"]
+- ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "String"]
+- !private ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "UIFont"]
+- ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "init"]
+- !private ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "valueFont"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "UIFont"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "systemFontOfSize"]
+- !private ["PSs11CVarArgType", "valueFont"]
+- ["PSs11CVarArgType", ""]
+- ["C5EPIAL12ChartDataSet", "ChartDataEntry"]
+- ["C5EPIAL12ChartDataSet", "String"]
+- !private ["C5EPIAL12ChartDataSet", "UIFont"]
+- ["C5EPIAL12ChartDataSet", "init"]
+- !private ["C5EPIAL12ChartDataSet", "valueFont"]
+- !private ["PSs23CustomStringConvertible", "UIFont"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "systemFontOfSize"]
+- !private ["PSs23CustomStringConvertible", "valueFont"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "UIFont"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "systemFontOfSize"]
+- !private ["PSs9Equatable", "valueFont"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "UIFont"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "systemFontOfSize"]
+- !private ["PSs8Hashable", "valueFont"]
+- ["PSs8Hashable", ""]
+- ["C5EPIAL21LineRadarChartDataSet", "ChartDataEntry"]
+- ["C5EPIAL21LineRadarChartDataSet", "String"]
+- !private ["C5EPIAL21LineRadarChartDataSet", "UIFont"]
+- ["C5EPIAL21LineRadarChartDataSet", "init"]
+- !private ["C5EPIAL21LineRadarChartDataSet", "valueFont"]
+- ["C5EPIAL21LineRadarChartDataSet", ""]
+- ["C5EPIAL29LineScatterCandleChartDataSet", "ChartDataEntry"]
+- ["C5EPIAL29LineScatterCandleChartDataSet", "String"]
+- !private ["C5EPIAL29LineScatterCandleChartDataSet", "UIFont"]
+- ["C5EPIAL29LineScatterCandleChartDataSet", "init"]
+- !private ["C5EPIAL29LineScatterCandleChartDataSet", "valueFont"]
+- !private ["PSo9NSCopying", "systemFontOfSize"]
+- ["CSo8NSObject", "ChartDataEntry"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIFont"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "systemFontOfSize"]
+- !private ["CSo8NSObject", "valueFont"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "systemFontOfSize"]
+- !private ["PSo16NSObjectProtocol", "valueFont"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C5EPIAL17RadarChartDataSet", "ChartDataEntry"]
+- ["C5EPIAL17RadarChartDataSet", "String"]
+- !private ["C5EPIAL17RadarChartDataSet", "UIFont"]
+- ["C5EPIAL17RadarChartDataSet", "deinit"]
+- ["C5EPIAL17RadarChartDataSet", "init"]
+- !private ["C5EPIAL17RadarChartDataSet", "valueFont"]
+- !private ["CSo6UIFont", "systemFontOfSize"]
+depends-nominal:
+- "PSs9AnyObject"
+- "C5EPIAL38BarLineScatterCandleBubbleChartDataSet"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- "C5EPIAL12ChartDataSet"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C5EPIAL21LineRadarChartDataSet"
+- "C5EPIAL29LineScatterCandleChartDataSet"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C5EPIAL17RadarChartDataSet"
+- !private "CSo6UIFont"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL-Bridging-Header.h"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL/PunchScrollView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+interface-hash: "b5628407595068ee3a10311332628076"

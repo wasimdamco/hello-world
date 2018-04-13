@@ -1,0 +1,49 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartDataProvider"
+provides-nominal:
+- "P5EPIAL17ChartDataProvider"
+provides-member:
+- ["P5EPIAL17ChartDataProvider", ""]
+provides-dynamic-lookup:
+- "chartXMax"
+- "centerOffsets"
+- "chartXMin"
+- "chartYMax"
+- "chartYMin"
+- "data"
+- "xValCount"
+depends-top-level:
+- "ChartData"
+- "Double"
+- "CGPoint"
+- "Int"
+- "ChartDataProvider"
+depends-member:
+- ["P5EPIAL17ChartDataProvider", "CGPoint"]
+- ["P5EPIAL17ChartDataProvider", "ChartData"]
+- ["P5EPIAL17ChartDataProvider", "Double"]
+- ["P5EPIAL17ChartDataProvider", "Int"]
+- ["P5EPIAL17ChartDataProvider", "centerOffsets"]
+- ["P5EPIAL17ChartDataProvider", "chartXMax"]
+- ["P5EPIAL17ChartDataProvider", "chartXMin"]
+- ["P5EPIAL17ChartDataProvider", "chartYMax"]
+- ["P5EPIAL17ChartDataProvider", "chartYMin"]
+- ["P5EPIAL17ChartDataProvider", "data"]
+- ["P5EPIAL17ChartDataProvider", "xValCount"]
+depends-nominal:
+- "P5EPIAL17ChartDataProvider"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL-Bridging-Header.h"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL/PunchScrollView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+interface-hash: "f1731592b69f31fd66b9fd8b4dbf35dc"

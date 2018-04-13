@@ -1,0 +1,141 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LineScatterCandleChartDataSet"
+provides-nominal:
+- "C5EPIAL29LineScatterCandleChartDataSet"
+provides-member:
+- ["C5EPIAL29LineScatterCandleChartDataSet", ""]
+provides-dynamic-lookup:
+- "setDrawHighlightIndicators"
+- "isHorizontalHighlightIndicatorEnabled"
+- "isVerticalHighlightIndicatorEnabled"
+- "drawHorizontalHighlightIndicatorEnabled"
+- "drawVerticalHighlightIndicatorEnabled"
+- "copyWithZone"
+depends-top-level:
+- "Bool"
+- "NSZone"
+- "BarLineScatterCandleBubbleChartDataSet"
+- "LineScatterCandleChartDataSet"
+- "BooleanLiteralType"
+- "AnyObject"
+depends-member:
+- ["PSs9AnyObject", "copyWithZone"]
+- ["PSs9AnyObject", "drawHorizontalHighlightIndicatorEnabled"]
+- ["PSs9AnyObject", "drawVerticalHighlightIndicatorEnabled"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "isHorizontalHighlightIndicatorEnabled"]
+- ["PSs9AnyObject", "isVerticalHighlightIndicatorEnabled"]
+- ["PSs9AnyObject", "setDrawHighlightIndicators"]
+- ["PSs9AnyObject", ""]
+- ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "AnyObject"]
+- ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "Bool"]
+- !private ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "LineScatterCandleChartDataSet"]
+- ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "NSZone"]
+- ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "copyWithZone"]
+- ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "drawHorizontalHighlightIndicatorEnabled"]
+- ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "drawVerticalHighlightIndicatorEnabled"]
+- ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "init"]
+- ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "isHorizontalHighlightIndicatorEnabled"]
+- ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "isVerticalHighlightIndicatorEnabled"]
+- ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", "setDrawHighlightIndicators"]
+- ["C5EPIAL38BarLineScatterCandleBubbleChartDataSet", ""]
+- ["PSs11CVarArgType", "copyWithZone"]
+- ["PSs11CVarArgType", "drawHorizontalHighlightIndicatorEnabled"]
+- ["PSs11CVarArgType", "drawVerticalHighlightIndicatorEnabled"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "isHorizontalHighlightIndicatorEnabled"]
+- ["PSs11CVarArgType", "isVerticalHighlightIndicatorEnabled"]
+- ["PSs11CVarArgType", "setDrawHighlightIndicators"]
+- ["PSs11CVarArgType", ""]
+- ["C5EPIAL12ChartDataSet", "AnyObject"]
+- ["C5EPIAL12ChartDataSet", "Bool"]
+- !private ["C5EPIAL12ChartDataSet", "LineScatterCandleChartDataSet"]
+- ["C5EPIAL12ChartDataSet", "NSZone"]
+- ["C5EPIAL12ChartDataSet", "copyWithZone"]
+- ["C5EPIAL12ChartDataSet", "drawHorizontalHighlightIndicatorEnabled"]
+- ["C5EPIAL12ChartDataSet", "drawVerticalHighlightIndicatorEnabled"]
+- ["C5EPIAL12ChartDataSet", "init"]
+- ["C5EPIAL12ChartDataSet", "isHorizontalHighlightIndicatorEnabled"]
+- ["C5EPIAL12ChartDataSet", "isVerticalHighlightIndicatorEnabled"]
+- ["C5EPIAL12ChartDataSet", "setDrawHighlightIndicators"]
+- ["PSs23CustomStringConvertible", "copyWithZone"]
+- ["PSs23CustomStringConvertible", "drawHorizontalHighlightIndicatorEnabled"]
+- ["PSs23CustomStringConvertible", "drawVerticalHighlightIndicatorEnabled"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "isHorizontalHighlightIndicatorEnabled"]
+- ["PSs23CustomStringConvertible", "isVerticalHighlightIndicatorEnabled"]
+- ["PSs23CustomStringConvertible", "setDrawHighlightIndicators"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "copyWithZone"]
+- ["PSs9Equatable", "drawHorizontalHighlightIndicatorEnabled"]
+- ["PSs9Equatable", "drawVerticalHighlightIndicatorEnabled"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "isHorizontalHighlightIndicatorEnabled"]
+- ["PSs9Equatable", "isVerticalHighlightIndicatorEnabled"]
+- ["PSs9Equatable", "setDrawHighlightIndicators"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "copyWithZone"]
+- ["PSs8Hashable", "drawHorizontalHighlightIndicatorEnabled"]
+- ["PSs8Hashable", "drawVerticalHighlightIndicatorEnabled"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "isHorizontalHighlightIndicatorEnabled"]
+- ["PSs8Hashable", "isVerticalHighlightIndicatorEnabled"]
+- ["PSs8Hashable", "setDrawHighlightIndicators"]
+- ["PSs8Hashable", ""]
+- ["C5EPIAL29LineScatterCandleChartDataSet", "AnyObject"]
+- ["C5EPIAL29LineScatterCandleChartDataSet", "Bool"]
+- !private ["C5EPIAL29LineScatterCandleChartDataSet", "LineScatterCandleChartDataSet"]
+- ["C5EPIAL29LineScatterCandleChartDataSet", "NSZone"]
+- ["C5EPIAL29LineScatterCandleChartDataSet", "copyWithZone"]
+- ["C5EPIAL29LineScatterCandleChartDataSet", "deinit"]
+- ["C5EPIAL29LineScatterCandleChartDataSet", "drawHorizontalHighlightIndicatorEnabled"]
+- ["C5EPIAL29LineScatterCandleChartDataSet", "drawVerticalHighlightIndicatorEnabled"]
+- ["C5EPIAL29LineScatterCandleChartDataSet", "init"]
+- ["C5EPIAL29LineScatterCandleChartDataSet", "isHorizontalHighlightIndicatorEnabled"]
+- ["C5EPIAL29LineScatterCandleChartDataSet", "isVerticalHighlightIndicatorEnabled"]
+- ["C5EPIAL29LineScatterCandleChartDataSet", "setDrawHighlightIndicators"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "LineScatterCandleChartDataSet"]
+- ["CSo8NSObject", "NSZone"]
+- ["CSo8NSObject", "copyWithZone"]
+- ["CSo8NSObject", "drawHorizontalHighlightIndicatorEnabled"]
+- ["CSo8NSObject", "drawVerticalHighlightIndicatorEnabled"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isHorizontalHighlightIndicatorEnabled"]
+- ["CSo8NSObject", "isVerticalHighlightIndicatorEnabled"]
+- ["CSo8NSObject", "setDrawHighlightIndicators"]
+- ["PSo16NSObjectProtocol", "copyWithZone"]
+- ["PSo16NSObjectProtocol", "drawHorizontalHighlightIndicatorEnabled"]
+- ["PSo16NSObjectProtocol", "drawVerticalHighlightIndicatorEnabled"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isHorizontalHighlightIndicatorEnabled"]
+- ["PSo16NSObjectProtocol", "isVerticalHighlightIndicatorEnabled"]
+- ["PSo16NSObjectProtocol", "setDrawHighlightIndicators"]
+- ["PSo16NSObjectProtocol", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "C5EPIAL38BarLineScatterCandleBubbleChartDataSet"
+- "PSs11CVarArgType"
+- "C5EPIAL12ChartDataSet"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C5EPIAL29LineScatterCandleChartDataSet"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL-Bridging-Header.h"
+- "/Users/User/Documents/Damco_Projects/05_EPIAL/EPILTeam_20151222/EPIAL/PunchScrollView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+interface-hash: "67f905905c4af7b7d5f4e94b07001c72"

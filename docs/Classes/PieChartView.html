@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PieChartView Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/PieChartView" class="dashAnchor"></a>
+    <a title="PieChartView Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (42% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        PieChartView Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BarChartView.html">BarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL25BarLineChartFillFormatter">BarLineChartFillFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BarLineChartViewBase.html">BarLineChartViewBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL19BodyPartsDetailView">BodyPartsDetailView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL29BodyPartsDetailViewController">BodyPartsDetailViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL20CandleStickChartView">CandleStickChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartComponentBase.html">ChartComponentBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL31ChartDefaultXAxisValueFormatter">ChartDefaultXAxisValueFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartLimitLine.html">ChartLimitLine</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartTransformer.html">ChartTransformer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartViewPortHandler.html">ChartViewPortHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChartYAxis.html">ChartYAxis</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CombinedChartView.html">CombinedChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPDatePickerView.html">EPDatePickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPHistoryTableView.html">EPHistoryTableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22EPHistoryTableViewCell">EPHistoryTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22EPNavigationController">EPNavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPPickerView.html">EPPickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL16ElectronicManual">ElectronicManual</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GraphViewController.html">GraphViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL22HorizontalBarChartView">HorizontalBarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL23HumanBodyViewController">HumanBodyViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL13LineChartData">LineChartData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL13LineChartView">LineChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Logger.html">Logger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoggerViewController.html">LoggerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PDFViewController.html">PDFViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PieChartView.html">PieChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PieRadarChartViewBase.html">PieRadarChartViewBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RadarChartView.html">RadarChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL16ScatterChartView">ScatterChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C5EPIAL17TabViewController">TabViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:O5EPIAL10DeviceType">DeviceType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ChartFillFormatter.html">ChartFillFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChartXAxisValueFormatter.html">ChartXAxisValueFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DatePickerSelectionDelegate.html">DatePickerSelectionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PickerSelectionDelegate.html">PickerSelectionDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL16DeviceAIDDetails">DeviceAIDDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL14DeviceMDetails">DeviceMDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V5EPIAL19EPDeviceInformation">EPDeviceInformation</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>PieChartView</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">PieChartView</span><span class="p">:</span> <span class="kt">PieRadarChartViewBase</span></code></pre>
+
+                </div>
+              </div>
+            <p>View that represents a pie chart. Draws cake like slices.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL12PieChartView14needsHighlightFS0_FT6xIndexSi12dataSetIndexSi_Sb"></a>
+                    <a name="//apple_ref/swift/Method/needsHighlight(xIndex:dataSetIndex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL12PieChartView14needsHighlightFS0_FT6xIndexSi12dataSetIndexSi_Sb">needsHighlight(xIndex:dataSetIndex:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>checks if the given index in the given DataSet is set for highlighting or not</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">needsHighlight</span><span class="p">(</span><span class="n">xIndex</span> <span class="nv">xIndex</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">dataSetIndex</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5EPIAL12PieChartView20dataSetIndexForIndexFS0_FSiSi"></a>
+                    <a name="//apple_ref/swift/Method/dataSetIndexForIndex(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5EPIAL12PieChartView20dataSetIndexForIndexFS0_FSiSi">dataSetIndexForIndex(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">dataSetIndexForIndex</span><span class="p">(</span><span class="nv">xIndex</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the index of the DataSet this x-index belongs to.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView10drawAnglesGSaV12CoreGraphics7CGFloat_"></a>
+                    <a name="//apple_ref/swift/Property/drawAngles" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView10drawAnglesGSaV12CoreGraphics7CGFloat_">drawAngles</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">drawAngles</span><span class="p">:</span> <span class="p">[</span><span class="kt">CGFloat</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>an integer array of all the different angles the chart slices have the angles in the returned array determine how much space (of 360°) each slice takes</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView14absoluteAnglesGSaV12CoreGraphics7CGFloat_"></a>
+                    <a name="//apple_ref/swift/Property/absoluteAngles" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView14absoluteAnglesGSaV12CoreGraphics7CGFloat_">absoluteAngles</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">absoluteAngles</span><span class="p">:</span> <span class="p">[</span><span class="kt">CGFloat</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the absolute angles of the different chart slices (where the slices end)</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView9holeColorGSqCSo7UIColor_"></a>
+                    <a name="//apple_ref/swift/Property/holeColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView9holeColorGSqCSo7UIColor_">holeColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the color for the hole that is drawn in the center of the PieChart (if enabled).</p>
+
+<p><em>Note: Use holeTransparent with holeColor = nil to make the hole transparent.</em></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">holeColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView15holeTransparentSb"></a>
+                    <a name="//apple_ref/swift/Property/holeTransparent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView15holeTransparentSb">holeTransparent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the hole in the center of the PieChart transparent</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">holeTransparent</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView17isHoleTransparentSb"></a>
+                    <a name="//apple_ref/swift/Property/isHoleTransparent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView17isHoleTransparentSb">isHoleTransparent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isHoleTransparent</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if the hole in the center of the PieChart is transparent, false if not.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView9holeAlphaV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/holeAlpha" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView9holeAlphaV12CoreGraphics7CGFloat">holeAlpha</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the alpha of the hole in the center of the piechart, in case holeTransparent == true</p>
+
+<p><strong>default</strong>: 0.41</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">holeAlpha</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView15drawHoleEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/drawHoleEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView15drawHoleEnabledSb">drawHoleEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>true if the hole in the center of the pie-chart is set to be visible, false if not</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">drawHoleEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView17isDrawHoleEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/isDrawHoleEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView17isDrawHoleEnabledSb">isDrawHoleEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isDrawHoleEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if the hole in the center of the pie-chart is set to be visible, false if not</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView10centerTextGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/centerText" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView10centerTextGSqSS_">centerText</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the text that is displayed in the center of the pie-chart</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">centerText</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView20centerAttributedTextGSqCSo18NSAttributedString_"></a>
+                    <a name="//apple_ref/swift/Property/centerAttributedText" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView20centerAttributedTextGSqCSo18NSAttributedString_">centerAttributedText</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the text that is displayed in the center of the pie-chart</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">centerAttributedText</span><span class="p">:</span> <span class="kt">NSAttributedString</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView21drawCenterTextEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/drawCenterTextEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView21drawCenterTextEnabledSb">drawCenterTextEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>true if drawing the center text is enabled</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">drawCenterTextEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView23isDrawCenterTextEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/isDrawCenterTextEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView23isDrawCenterTextEnabledSb">isDrawCenterTextEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isDrawCenterTextEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if drawing the center text is enabled</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView9circleBoxVSC6CGRect"></a>
+                    <a name="//apple_ref/swift/Property/circleBox" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView9circleBoxVSC6CGRect">circleBox</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">circleBox</span><span class="p">:</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the circlebox, the boundingbox of the pie-chart slices</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView15centerCircleBoxVSC7CGPoint"></a>
+                    <a name="//apple_ref/swift/Property/centerCircleBox" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView15centerCircleBoxVSC7CGPoint">centerCircleBox</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">centerCircleBox</span><span class="p">:</span> <span class="kt">CGPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the center of the circlebox</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView17holeRadiusPercentV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/holeRadiusPercent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView17holeRadiusPercentV12CoreGraphics7CGFloat">holeRadiusPercent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the radius of the hole in the center of the piechart in percent of the maximum radius (max = the radius of the whole chart)</p>
+
+<p><strong>default</strong>: 0.5 (50%) (half the pie)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">holeRadiusPercent</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView30transparentCircleRadiusPercentV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/transparentCircleRadiusPercent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView30transparentCircleRadiusPercentV12CoreGraphics7CGFloat">transparentCircleRadiusPercent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the radius of the transparent circle that is drawn next to the hole in the piechart in percent of the maximum radius (max = the radius of the whole chart)</p>
+
+<p><strong>default</strong>: 0.55 (55%) -&gt; means 5% larger than the center-hole by default</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">transparentCircleRadiusPercent</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView20drawSliceTextEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/drawSliceTextEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView20drawSliceTextEnabledSb">drawSliceTextEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>set this to true to draw the x-value text into the pie slices</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">drawSliceTextEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView22isDrawSliceTextEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/isDrawSliceTextEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView22isDrawSliceTextEnabledSb">isDrawSliceTextEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isDrawSliceTextEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if drawing x-values is enabled, false if not</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView23usePercentValuesEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/usePercentValuesEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView23usePercentValuesEnabledSb">usePercentValuesEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If this is enabled, values inside the PieChart are drawn in percent and not with their original value. Values provided for the ValueFormatter to format are then provided in percent.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">usePercentValuesEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView25isUsePercentValuesEnabledSb"></a>
+                    <a name="//apple_ref/swift/Property/isUsePercentValuesEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView25isUsePercentValuesEnabledSb">isUsePercentValuesEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isUsePercentValuesEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if drawing x-values is enabled, false if not</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView23centerTextRadiusPercentV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/centerTextRadiusPercent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView23centerTextRadiusPercentV12CoreGraphics7CGFloat">centerTextRadiusPercent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the rectangular radius of the bounding box for the center text, as a percentage of the pie hole</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">centerTextRadiusPercent</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC5EPIAL12PieChartView8maxAngleV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/maxAngle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC5EPIAL12PieChartView8maxAngleV12CoreGraphics7CGFloat">maxAngle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The max angle that is used for calculating the pie-circle.
+360 means it&rsquo;s a full pie-chart, 180 results in a half-pie-chart.
+- default: 360.0</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">maxAngle</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external">Akhil</a>. All rights reserved. (Last updated: 2016-02-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.5.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
